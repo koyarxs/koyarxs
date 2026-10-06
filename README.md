@@ -1,310 +1,624 @@
 <div align="center">
 
-# 👋 Hola, soy Yerko Barrera
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                    BANNER PRINCIPAL                        -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 
-### 💻 Ingeniero en Computación e Informática | Full Stack Developer
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=850&lines=Ingeniero+en+Computaci%C3%B3n+e+Inform%C3%A1tica;Desarrollador+Full+Stack;React+%7C+Next.js+%7C+TypeScript;Node.js+%7C+NestJS+%7C+PostgreSQL;Construyendo+proyectos+reales+%F0%9F%9A%80;Aprendiendo%2C+programando+y+mejorando+cada+d%C3%ADa" alt="Typing SVG" />
+<img src="./assets/banner-yerko.gif" width="100%" alt="Yerko Barrera - Full Stack Developer"/>
 
 <br/>
 
-📍 Valparaíso, Chile 🇨🇱  
-🚀 Enfocado en **Desarrollo Full Stack, Ingeniería de Software y DevOps**  
-🛡️ Ampliando conocimientos en **Ciberseguridad y Cloud Computing**
+# 👋 Hola, soy Yerko Barrera
+
+### 👨‍💻 Ingeniero en Computación e Informática | Full Stack Developer
+
+<img
+src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=900&lines=Ingeniero+en+Computaci%C3%B3n+e+Inform%C3%A1tica+%F0%9F%8E%93;Full+Stack+Developer+%F0%9F%92%BB;React+%E2%80%A2+Next.js+%E2%80%A2+TypeScript;Node.js+%E2%80%A2+NestJS+%E2%80%A2+PostgreSQL;DevOps+%E2%80%A2+Cloud+%E2%80%A2+Cybersecurity;Analytics+%E2%80%A2+SEO+%E2%80%A2+Performance;Construyendo+proyectos+reales+%F0%9F%9A%80"
+alt="Typing SVG"
+/>
+
+<br/><br/>
+
+![Chile](https://img.shields.io/badge/Chile-🇨🇱-0A66C2?style=for-the-badge)
+![Full Stack](https://img.shields.io/badge/Full%20Stack-Developer-38BDF8?style=for-the-badge)
+![Software](https://img.shields.io/badge/Software-Engineering-8B5CF6?style=for-the-badge)
+![Open to Work](https://img.shields.io/badge/Open%20to-Work-22C55E?style=for-the-badge)
 
 </div>
 
 ---
 
-## 👨‍💻 Sobre mí
+# 👨‍💻 Sobre mí
 
-Soy **Ingeniero en Computación e Informática**, con experiencia previa en **Soporte TI N1/N2** y actualmente enfocado en el desarrollo de software y la construcción de aplicaciones **Full Stack**.
+<table>
+<tr>
 
-Mi experiencia en soporte tecnológico me permitió desarrollar una visión práctica sobre resolución de problemas, continuidad operacional, atención de incidencias y funcionamiento de entornos TI.
+<td width="58%" valign="top">
 
-Actualmente estoy llevando esa experiencia al mundo del desarrollo, construyendo proyectos que integran **Frontend, Backend, bases de datos, APIs REST, testing, contenedores y automatización**.
+Soy **Ingeniero en Computación e Informática**, recién titulado, con aproximadamente **4 años de experiencia en Soporte TI N1/N2** y actualmente enfocado en **Desarrollo Full Stack e Ingeniería de Software**.
+
+Me interesa comprender el desarrollo de productos digitales de forma integral: desde la experiencia visual del usuario hasta el backend, bases de datos, testing, infraestructura, automatización, seguridad, despliegue, analítica y posicionamiento.
+
+Actualmente desarrollo proyectos propios donde aplico y continúo fortaleciendo conocimientos relacionados con:
+
+- 💻 Desarrollo Full Stack.
+- ⚛️ Frontend moderno.
+- ⚙️ Backend y APIs REST.
+- 🗄️ Bases de datos SQL y NoSQL.
+- 🧪 Testing y calidad.
+- 🐳 DevOps.
+- ☁️ Cloud Computing.
+- 🔐 Ciberseguridad.
+- 📱 Desarrollo Mobile.
+- 📊 Analytics.
+- 🔎 SEO y posicionamiento.
+- ⚡ Performance web.
+
+📍 **Valparaíso, Chile 🇨🇱**
+
+</td>
+
+<td width="42%" align="center">
+
+<img src="./assets/yerko-coding.gif" width="360" alt="Yerko coding"/>
+
+</td>
+
+</tr>
+</table>
+
+---
+
+# 🧬 Developer Profile
 
 ```typescript
 const yerko = {
-  ubicacion: "Valparaíso, Chile 🇨🇱",
   profesion: "Ingeniero en Computación e Informática",
+  ubicacion: "Valparaíso, Chile 🇨🇱",
+
   enfoque: [
     "Full Stack Development",
-    "Ingeniería de Software",
-    "DevOps",
-    "Ciberseguridad",
+    "Software Engineering"
   ],
-  frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
-  backend: ["Node.js", "NestJS", "Express"],
-  basesDeDatos: ["PostgreSQL", "MongoDB"],
-  aprendiendo: ["Docker", "CI/CD", "Kubernetes", "AWS", "Azure", "OWASP"],
-  filosofia: "Aprender → Construir → Romper → Corregir → Mejorar 🚀",
+
+  frontend: [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Tailwind CSS",
+    "Vite"
+  ],
+
+  backend: [
+    "Node.js",
+    "NestJS",
+    "Express.js",
+    "REST APIs",
+    "Swagger / OpenAPI"
+  ],
+
+  databases: [
+    "PostgreSQL",
+    "MongoDB",
+    "Prisma ORM"
+  ],
+
+  testing: [
+    "Vitest",
+    "Jest",
+    "E2E Testing",
+    "Selenium",
+    "SonarQube"
+  ],
+
+  devOps: [
+    "Docker",
+    "Docker Compose",
+    "GitHub Actions",
+    "CI/CD",
+    "Kubernetes"
+  ],
+
+  cloud: [
+    "AWS",
+    "Microsoft Azure",
+    "Cloudflare"
+  ],
+
+  analyticsSEO: [
+    "Google Analytics",
+    "Google Search Console",
+    "SEO Técnico",
+    "Core Web Vitals",
+    "Lighthouse"
+  ],
+
+  aprendiendo: [
+    "Arquitectura de Software",
+    "DevOps",
+    "Cloud",
+    "Ciberseguridad",
+    "Analytics",
+    "SEO",
+    "React Native"
+  ],
+
+  filosofia: "Aprender → Construir → Medir → Mejorar 🚀"
 };
 ```
 
 ---
 
-# 🛠️ Stack tecnológico
+<div align="center">
+
+<img src="./assets/banner-stack.gif" width="85%" alt="Technology Stack"/>
+
+# ⚡ Tech Arsenal
+
+### Tecnologías, herramientas y áreas que forman parte de mi camino como desarrollador.
+
+</div>
+
+---
 
 ## 🎨 Frontend
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,vite&perline=8" />
-</p>
-
 <div align="center">
 
-`HTML5` · `CSS3` · `JavaScript` · `TypeScript` · `React` · `Next.js` · `Tailwind CSS` · `Vite`
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,vite&perline=8"/>
+
+<br/><br/>
+
+`HTML5` · `CSS3` · `JavaScript` · `TypeScript`  
+`React` · `Next.js` · `Tailwind CSS` · `Vite`
 
 </div>
+
+---
 
 ## ⚙️ Backend
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,ts&perline=8" />
-</p>
-
 <div align="center">
 
-`Node.js` · `NestJS` · `Express.js` · `TypeScript` · `REST APIs` · `Swagger / OpenAPI`
+<img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,ts&perline=8"/>
+
+<br/><br/>
+
+`Node.js` · `NestJS` · `Express.js` · `TypeScript`  
+`REST APIs` · `Swagger / OpenAPI`
 
 </div>
 
+---
+
 ## 🗄️ Bases de datos
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,prisma&perline=8" />
-</p>
-
 <div align="center">
+
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,prisma&perline=8"/>
+
+<br/><br/>
 
 `PostgreSQL` · `MongoDB` · `SQL` · `Prisma ORM`
 
 </div>
 
-## 📱 Desarrollo Mobile
+---
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react&perline=8" />
-</p>
+## 📱 Mobile
 
 <div align="center">
+
+<img src="https://skillicons.dev/icons?i=react&perline=8"/>
+
+<br/><br/>
 
 `React Native`
 
 </div>
 
-## 🧪 Testing & Calidad
+---
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=vitest,jest,selenium&perline=8" />
-</p>
+## 🧪 Testing & Quality
 
 <div align="center">
 
-`Vitest` · `Jest` · `Testing E2E` · `Selenium` · `ESLint` · `Oxlint` · `Prettier` · `SonarQube`
+<img src="https://skillicons.dev/icons?i=jest,selenium&perline=8"/>
+
+<br/><br/>
+
+`Vitest` · `Jest` · `Testing E2E` · `Selenium`
+
+`ESLint` · `Oxlint` · `Prettier` · `SonarQube`
 
 </div>
+
+---
 
 ## 🐳 DevOps
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,git,github,linux&perline=8" />
-</p>
-
 <div align="center">
 
-`Docker` · `Docker Compose` · `GitHub Actions` · `CI/CD` · `Kubernetes` · `Git` · `GitHub` · `Linux`
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,git,github,linux&perline=8"/>
+
+<br/><br/>
+
+`Docker` · `Docker Compose` · `GitHub Actions`  
+`CI/CD` · `Kubernetes` · `Git` · `GitHub` · `Linux`
 
 </div>
 
+---
+
 ## ☁️ Cloud
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=aws,azure,cloudflare&perline=8" />
-</p>
-
 <div align="center">
+
+<img src="https://skillicons.dev/icons?i=aws,azure,cloudflare&perline=8"/>
+
+<br/><br/>
 
 `AWS` · `Microsoft Azure` · `Cloudflare`
 
 </div>
 
+---
+
 ## 🔐 Ciberseguridad
 
 <div align="center">
 
-`OWASP Top 10` · `Seguridad Web` · `Buenas prácticas de desarrollo seguro` · `CyberOps`
+🛡️ `OWASP Top 10`
+
+🔐 `Desarrollo seguro`
+
+🌐 `Seguridad de APIs`
+
+🎯 `Cisco CyberOps`
 
 </div>
 
 ---
 
+## 📊 Analytics, SEO & Performance
+
+<div align="center">
+
+### 📊 Google Analytics
+
+Medición de tráfico, adquisición, comportamiento y rendimiento de proyectos web.
+
+### 🔎 Google Search Console
+
+Indexación, rendimiento orgánico, cobertura y presencia de proyectos en Google.
+
+<br/>
+
+`Google Analytics` · `Google Search Console` · `SEO Técnico`
+
+`Metadata` · `Open Graph` · `Sitemap XML` · `robots.txt`
+
+`Structured Data` · `Schema.org`
+
+`Core Web Vitals` · `Lighthouse` · `Web Performance`
+
+</div>
+
+---
+
+## 🧰 Herramientas
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=vscode,git,github,postman,docker,linux&perline=8"/>
+
+<br/><br/>
+
+`VS Code` · `Git` · `GitHub` · `Postman`  
+`pgAdmin` · `Docker` · `Linux`
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="./assets/yerko-projects.gif" width="75%" alt="Building Software"/>
+
 # 🚀 Proyectos destacados
 
-## 🛡️ FraudShield
+### Las ideas son mejores cuando terminan convertidas en código.
 
-### Sistema de clasificación de riesgo para banca digital
-
-Aplicación Full Stack diseñada para procesar transacciones por lotes y clasificarlas según diferentes niveles de riesgo.
-
-**Tecnologías principales**
-
-`React` · `Next.js` · `TypeScript` · `Tailwind CSS`  
-`Node.js` · `NestJS` · `PostgreSQL` · `Prisma`  
-`Docker` · `JWT` · `Testing Unitario` · `Testing E2E`
-
-### Algunas características
-
-- 📂 Procesamiento de archivos y lotes de transacciones
-- 🧠 Motor de reglas de riesgo
-- 🚦 Clasificación BAJO / MEDIO / ALTO
-- 📊 Dashboard de métricas
-- 🔐 Autenticación mediante JWT
-- 📝 Auditoría de operaciones
-- 🧪 Pruebas unitarias y E2E
-- 🐳 Entorno mediante Docker
+</div>
 
 ---
 
-## 🐾 Pawly
+# 🛡️ FraudShield
 
-### Plataforma Full Stack en desarrollo
+### Sistema Full Stack de clasificación de riesgo para banca digital
 
-Proyecto desarrollado utilizando una metodología de trabajo basada en **Scrum**, organización mediante historias de usuario, tareas técnicas, ramas y flujo de revisión.
+Sistema diseñado para procesar transacciones por lotes y clasificarlas según distintos niveles de riesgo.
 
-**Estado:** 🚧 En desarrollo
+### 🧰 Stack
+
+`React` · `Next.js` · `TypeScript` · `Tailwind CSS`
+
+`Node.js` · `NestJS`
+
+`PostgreSQL` · `Prisma`
+
+`Docker` · `JWT`
+
+`Jest` · `Testing E2E`
+
+### ⚙️ Características
+
+- 📂 Procesamiento de archivos.
+- 💳 Procesamiento de transacciones.
+- 🧠 Motor de reglas.
+- 🚦 Clasificación de riesgo `BAJO / MEDIO / ALTO`.
+- 📊 Dashboard de métricas.
+- 🔐 Autenticación mediante JWT.
+- 📝 Auditoría de operaciones.
+- 🗄️ Modelo relacional.
+- 🧪 Testing unitario.
+- 🧪 Testing E2E.
+- 🐳 Entorno mediante Docker.
 
 ---
 
-## 🚁 FlyMaster
+# 🐾 Pawly
+
+### Plataforma Full Stack
+
+Proyecto personal utilizado para continuar desarrollando conocimientos de ingeniería de software y aplicar un flujo de trabajo similar al utilizado en equipos profesionales.
+
+### 🔄 Workflow
+
+`Scrum`
+
+`Historias de Usuario`
+
+`Sprint Backlog`
+
+`Git`
+
+`Feature Branches`
+
+`Pull Requests`
+
+`Code Review`
+
+`Testing`
+
+`Documentación`
+
+> 🚧 **Estado actual: En desarrollo**
+
+---
+
+# 🚁 FlyMaster
 
 ### Plataforma web Full Stack orientada al mundo de drones
 
-Proyecto enfocado en construir una experiencia web moderna, profesional y responsive, complementada con backend y persistencia de datos.
+Proyecto desarrollado con énfasis en diseño moderno, rendimiento, experiencia de usuario y arquitectura Full Stack.
 
-**Tecnologías**
+### 🧰 Stack
 
-`Next.js` · `React` · `TypeScript` · `Tailwind CSS`  
-`NestJS` · `PostgreSQL` · `Prisma` · `Docker`
+`Next.js` · `React` · `TypeScript` · `Tailwind CSS`
+
+`NestJS` · `PostgreSQL` · `Prisma`
+
+`Docker`
+
+### 📈 Analytics & SEO
+
+El proyecto también incorpora una estrategia orientada a medición, posicionamiento y rendimiento.
+
+- 📊 Google Analytics.
+- 🔎 Google Search Console.
+- 🎯 SEO técnico.
+- 🏷️ Metadata.
+- 🌐 Open Graph.
+- 🗺️ Sitemap XML.
+- 🤖 robots.txt.
+- 🧩 Datos estructurados.
+- ⚡ Optimización de rendimiento.
+- 📱 Core Web Vitals.
+- 🔬 Auditorías mediante Lighthouse.
 
 🌐 **flymaster.cl**
 
 ---
 
-# 🧠 Actualmente estoy profundizando en
+<div align="center">
+
+<img src="./assets/yerko-learning.gif" width="70%" alt="Yerko Learning"/>
+
+# 🧠 Actualmente profundizando
+
+### `Loading new skills...`
+
+</div>
 
 ```text
-🏗️ Arquitectura de Software
+🏗️ SOFTWARE ENGINEERING
+│
+├── Clean Code
+├── SOLID
 ├── Clean Architecture
 ├── Arquitectura Hexagonal
-├── SOLID
 └── Microservicios
 
-🐳 DevOps
+
+🐳 DEVOPS
+│
 ├── Docker
 ├── Docker Compose
-├── CI/CD
 ├── GitHub Actions
+├── CI/CD
 └── Kubernetes
 
-🔐 Ciberseguridad
-├── OWASP Top 10
-├── Desarrollo seguro
-├── Seguridad de APIs
-└── Cisco CyberOps
 
-☁️ Cloud
+☁️ CLOUD
+│
 ├── AWS
 ├── Microsoft Azure
 └── Cloudflare
 
-🧪 Calidad
+
+🔐 CYBERSECURITY
+│
+├── OWASP Top 10
+├── Seguridad Web
+├── Seguridad de APIs
+└── Cisco CyberOps
+
+
+🧪 SOFTWARE QUALITY
+│
 ├── Unit Testing
 ├── Integration Testing
 ├── E2E Testing
-├── SonarQube
-└── Automatización
+├── Selenium
+└── SonarQube
+
+
+📊 ANALYTICS & SEO
+│
+├── Google Analytics
+├── Google Search Console
+├── SEO Técnico
+├── Metadata
+├── Open Graph
+├── Sitemap
+├── robots.txt
+├── Structured Data
+├── Schema.org
+├── Core Web Vitals
+└── Lighthouse
+
+
+📱 MOBILE
+│
+└── React Native
 ```
 
 ---
 
 # 💼 Experiencia TI
 
-Cuento con aproximadamente **4 años de experiencia en Soporte TI N1/N2**, trabajando en distintos entornos tecnológicos.
+Antes de orientar mi carrera principalmente hacia el desarrollo de software, construí una base de aproximadamente **4 años trabajando en Soporte TI N1/N2**.
 
-Durante esta etapa adquirí experiencia en:
-
-- 🖥️ Soporte de hardware y software
-- 🌐 Diagnóstico básico de redes
-- 🎫 Gestión de tickets e incidencias
-- ⏱️ Trabajo orientado a SLA
-- 🪟 Windows
-- 🍎 macOS
-- 🐧 Linux
-- ☁️ Microsoft 365
-- 👥 Active Directory
-- 🔧 Resolución y escalamiento de incidencias
-- 📚 Documentación técnica
-- 🤝 Atención y soporte a usuarios
-
-Esta experiencia complementa mi perfil como desarrollador, permitiéndome comprender el software no solamente desde el código, sino también desde la **operación, infraestructura y experiencia del usuario**.
-
----
-
-# 🎓 Formación
-
-🎓 **Ingeniería en Computación e Informática**
-
-🎓 **Licenciado en Computación e Informática**
-
-💻 **Técnico Programador Computacional**
-
----
-
-# 🧩 Mi forma de trabajar
+Esta experiencia me permitió enfrentar incidencias reales, trabajar directamente con usuarios y comprender el funcionamiento operacional de diferentes entornos tecnológicos.
 
 ```text
-              IDEA
-               │
-               ▼
-        ┌──────────────┐
-        │   ANÁLISIS   │
-        └──────┬───────┘
-               │
-               ▼
-        ┌──────────────┐
-        │    DISEÑO    │
-        └──────┬───────┘
-               │
-               ▼
-        ┌──────────────┐
-        │  DESARROLLO  │
-        └──────┬───────┘
-               │
-               ▼
-        ┌──────────────┐
-        │   TESTING    │
-        └──────┬───────┘
-               │
-               ▼
-        ┌──────────────┐
-        │   DEPLOY     │
-        └──────┬───────┘
-               │
-               ▼
-             🚀
+💻 IT SUPPORT
+│
+├── 🖥️ Hardware / Software
+├── 🎫 Gestión de tickets
+├── ⏱️ SLA
+├── 🌐 Redes
+├── 🪟 Windows
+├── 🍎 macOS
+├── 🐧 Linux
+├── ☁️ Microsoft 365
+├── 👥 Active Directory
+├── 🔧 Diagnóstico
+├── 📈 Escalamiento
+└── 📝 Documentación
 ```
+
+> **El software no termina cuando el código compila. Detrás existe infraestructura, operación y, sobre todo, usuarios.**
 
 ---
 
-# 📊 Estadísticas de GitHub
+# 🎓 Formación académica
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=koyarxs&show_icons=true&theme=tokyonight&hide_border=true&locale=es" />
+### 🎓 Ingeniería en Computación e Informática
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=koyarxs&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+**Universidad Andrés Bello**
+
+### 📜 Licenciado en Computación e Informática
+
+**Universidad Andrés Bello**
+
+### 💻 Técnico Programador Computacional
+
+**AIEP**
+
+</div>
+
+---
+
+# 🔄 De una idea a producción
+
+<div align="center">
+
+```text
+                       💡 IDEA
+                          │
+                          ▼
+                   ┌─────────────┐
+                   │   ANÁLISIS  │
+                   └──────┬──────┘
+                          │
+                          ▼
+                   ┌─────────────┐
+                   │    DISEÑO   │
+                   └──────┬──────┘
+                          │
+                          ▼
+                   ┌─────────────┐
+                   │ DESARROLLO  │
+                   └──────┬──────┘
+                          │
+                          ▼
+                   ┌─────────────┐
+                   │   TESTING   │
+                   └──────┬──────┘
+                          │
+                          ▼
+                   ┌─────────────┐
+                   │   DEPLOY    │
+                   └──────┬──────┘
+                          │
+                          ▼
+                       🌎 WEB
+                          │
+                ┌─────────┴─────────┐
+                ▼                   ▼
+          📊 ANALYTICS           🔎 SEO
+                │                   │
+                └─────────┬─────────┘
+                          ▼
+                    📈 MEDICIÓN
+                          │
+                          ▼
+                    ⚡ OPTIMIZAR
+                          │
+                          ▼
+                      🔄 MEJORAR
+```
+
+</div>
+
+---
+
+# 📊 GitHub Analytics
+
+<div align="center">
+
+<img height="175"
+src="https://github-readme-stats.vercel.app/api?username=koyarxs&show_icons=true&theme=tokyonight&hide_border=true&locale=es&rank_icon=github"/>
+
+<img height="175"
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=koyarxs&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
 
 </div>
 
@@ -312,17 +626,20 @@ Esta experiencia complementa mi perfil como desarrollador, permitiéndome compre
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=koyarxs&theme=tokyonight&hide_border=true&locale=es" />
+<img src="https://streak-stats.demolab.com?user=koyarxs&theme=tokyonight&hide_border=true&locale=es"/>
 
 </div>
 
 ---
 
-# 📈 Actividad
+# 📈 Actividad de desarrollo
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=koyarxs&theme=tokyo-night&hide_border=true&area=true" width="95%" />
+<img
+src="https://github-readme-activity-graph.vercel.app/graph?username=koyarxs&theme=tokyo-night&hide_border=true&area=true"
+width="95%"
+/>
 
 </div>
 
@@ -332,54 +649,127 @@ Esta experiencia complementa mi perfil como desarrollador, permitiéndome compre
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/koyarxs/koyarxs/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+<img
+src="https://raw.githubusercontent.com/koyarxs/koyarxs/output/github-contribution-grid-snake-dark.svg"
+alt="Snake animation"
+/>
 
 </div>
 
 ---
 
-# 🎮 Cuando no estoy programando...
-
 <div align="center">
 
-🎮 **Gaming** &nbsp;&nbsp;•&nbsp;&nbsp;
-🎧 **Música** &nbsp;&nbsp;•&nbsp;&nbsp;
-💻 **Tecnología** &nbsp;&nbsp;•&nbsp;&nbsp;
-🧪 **Probar herramientas nuevas**
+<img src="./assets/yerko-gaming.gif" width="65%" alt="Yerko Gaming"/>
 
-</div>
+# 🎮 Modo Offline
+
+### Porque tampoco todo puede ser `npm run dev`...
+
+🎮 **Gaming**
+
+🎧 **Música**
+
+💻 **Tecnología**
+
+🧪 **Probar nuevas herramientas**
+
+👨‍👩‍👧‍👦 **Tiempo con la familia**
 
 <br/>
 
-A veces toca cerrar VS Code...
-
 ```text
-Developer.exe
+yerko@dev:~$ ./shutdown-development.sh
 
-[████████████████████████] 100%
+[██████████████████████████████] 100%
 
-✓ Código compilado
-✓ Tests superados
-✓ Docker funcionando
+✓ Código guardado
+✓ Tests ejecutados
+✓ Docker detenido
 ✓ Commit realizado
 ✓ Push completado
+✓ VS Code cerrado
 
-> Iniciando modo GAMING... 🎮
+> Buscando siguiente proceso...
 
-[████████████████████████] READY
+gaming.exe encontrado 🎮
+
+> Iniciando...
+
+[██████████████████████████████] 100%
+
+PLAYER 1 READY.
+```
+
+</div>
+
+---
+
+# 🏆 Quest Log
+
+```text
+MAIN QUEST                                      STATUS
+
+⚔️ Full Stack Development                       █████████░  EN PROGRESO
+
+🏗️ Software Architecture                       ██████░░░░  APRENDIENDO
+
+🐳 DevOps                                       ██████░░░░  APRENDIENDO
+
+☁️ Cloud Computing                              ████░░░░░░  APRENDIENDO
+
+🔐 Cybersecurity                                ████░░░░░░  APRENDIENDO
+
+📊 Analytics                                    █████░░░░░  APRENDIENDO
+
+🔎 SEO & Posicionamiento                        █████░░░░░  APRENDIENDO
+
+📱 Mobile Development                           ████░░░░░░  APRENDIENDO
+
+🚀 Construir productos reales                   ████████░░  EN PROGRESO
 ```
 
 ---
 
 # 🎯 Objetivo profesional
 
-Mi objetivo es continuar creciendo como **Ingeniero de Software / Full Stack Developer**, participando en proyectos donde pueda desarrollar soluciones reales y seguir fortaleciendo conocimientos en:
+Mi objetivo es continuar desarrollándome como **Full Stack Developer / Ingeniero de Software**, participando en proyectos reales y fortaleciendo progresivamente mis conocimientos en diferentes áreas de la ingeniería de software.
 
-**Desarrollo Full Stack · Arquitectura · DevOps · Cloud · Ciberseguridad · Mobile**
+No quiero limitarme solamente a escribir código.
 
-No busco solamente aprender tecnologías.
+Quiero comprender el ciclo completo de un producto digital:
 
-Busco entender **cómo diseñar, construir, probar, desplegar y mantener software de calidad.**
+```text
+IDEA
+  ↓
+DISEÑO
+  ↓
+FRONTEND
+  ↓
+BACKEND
+  ↓
+DATABASE
+  ↓
+TESTING
+  ↓
+DEVOPS
+  ↓
+CLOUD
+  ↓
+SECURITY
+  ↓
+DEPLOY
+  ↓
+SEO
+  ↓
+ANALYTICS
+  ↓
+OPTIMIZATION
+  ↓
+🚀 PRODUCTO
+```
+
+> ### Diseñar. Construir. Probar. Desplegar. Posicionar. Medir. Mejorar.
 
 ---
 
@@ -387,15 +777,27 @@ Busco entender **cómo diseñar, construir, probar, desplegar y mantener softwar
 
 <div align="center">
 
+### ¿Construimos algo interesante? 🚀
+
+<br/>
+
 <a href="https://github.com/koyarxs">
-  <img src="https://img.shields.io/badge/GitHub-koyarxs-181717?style=for-the-badge&logo=github" />
+<img
+src="https://img.shields.io/badge/GitHub-koyarxs-181717?style=for-the-badge&logo=github&logoColor=white"
+/>
+</a>
+
+<a href="TU_URL_LINKEDIN">
+<img
+src="https://img.shields.io/badge/LinkedIn-Yerko%20Barrera-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+/>
 </a>
 
 <br/><br/>
 
 💼 **Disponible para oportunidades en Desarrollo de Software y Tecnología**
 
-📍 Valparaíso, Chile 🇨🇱
+📍 **Valparaíso, Chile 🇨🇱**
 
 </div>
 
@@ -403,12 +805,23 @@ Busco entender **cómo diseñar, construir, probar, desplegar y mantener softwar
 
 <div align="center">
 
-### 💻 Construyendo una línea de código a la vez.
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Aprender.+Construir.+Mejorar.+Repetir.;El+mejor+c%C3%B3digo+es+el+que+todav%C3%ADa+puede+mejorar.;Siempre+hay+algo+nuevo+que+aprender+%F0%9F%9A%80" />
+<img src="./assets/banner-footer.gif" width="100%" alt="Yerko Developer Footer"/>
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=koyarxs&style=for-the-badge)
+## 👾 `while (alive) { learn(); build(); measure(); improve(); }`
+
+<img
+src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=850&lines=Aprender.+Construir.+Mejorar.+Repetir.;Transformando+ideas+en+c%C3%B3digo.;Construir+es+solo+el+principio.;Medir.+Optimizar.+Seguir+aprendiendo.+%F0%9F%9A%80"
+alt="Footer typing"
+/>
+
+<br/><br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=koyarxs&style=for-the-badge&color=0ea5e9)
+
+<br/><br/>
+
+**Gracias por visitar mi perfil 👨‍💻**
 
 </div>
