@@ -62,12 +62,35 @@ Docker Compose, pruebas unitarias y E2E, Supertest, Selenium, ESLint y verificac
 
 ## Proyectos destacados
 
-| Proyecto | Qué construyo | Stack y estado |
-| :--- | :--- | :--- |
-| **[FraudShield](https://github.com/koyarxs/Project-01-FraudShield-Septiembre-2026)** | Proyecto de título para clasificar riesgo transaccional: carga CSV, procesamiento por lotes, reglas, score, dashboard y trazabilidad. Clasifica riesgo; no confirma fraude. | Next.js · NestJS · PostgreSQL · Prisma · JWT · Docker. **MVP v1.0.0 estable**, con datos simulados. |
-| **[Pawly](https://github.com/koyarxs/Project-04-Pawly-Octubre-2026)** | Plataforma orientada a la gestión del bienestar de mascotas, desarrollada progresivamente con Scrum, Jira y revisión de código. | Next.js · NestJS · TypeScript · PostgreSQL · Prisma · Docker. **En desarrollo**. |
-| **FlyMaster** | Plataforma de servicios aéreos con landing responsive, flota 3D, planes, portafolio y consultas persistidas con notificación por correo. | Next.js · React · Three.js · NestJS · PostgreSQL · Prisma Next · QA. **Proyecto privado, en desarrollo**. |
-| **[CV profesional ATS](https://github.com/koyarxs/Project-02-CV-Yerko-Barrera-Septiembre-2026)** | Generador de CV a partir de una fuente de datos tipada, con HTML semántico y formato preparado para impresión. | TypeScript · Node.js · Node Test Runner · ESLint. |
+### [FraudShield](https://github.com/koyarxs/Project-01-FraudShield-Septiembre-2026)
+
+**Proyecto de título · MVP v1.0.0 estable**
+
+Clasificación de riesgo transaccional con carga CSV, procesamiento por lotes, reglas, score, dashboard y trazabilidad. Trabaja con datos simulados y clasifica riesgo; no confirma fraude.
+
+`Next.js` · `NestJS` · `PostgreSQL` · `Prisma` · `JWT` · `Docker`
+
+### [Pawly](https://github.com/koyarxs/Project-04-Pawly-Octubre-2026)
+
+**Proyecto personal · En desarrollo**
+
+Plataforma orientada a la gestión del bienestar de mascotas, desarrollada progresivamente con Scrum, Jira y revisión de código.
+
+`Next.js` · `NestJS` · `TypeScript` · `PostgreSQL` · `Prisma` · `Docker`
+
+### FlyMaster
+
+**Proyecto privado · En desarrollo**
+
+Plataforma de servicios aéreos con landing responsive, flota 3D, planes, portafolio y consultas persistidas con notificación por correo.
+
+`Next.js` · `React` · `Three.js` · `NestJS` · `PostgreSQL` · `Prisma Next` · `QA`
+
+### [CV profesional ATS](https://github.com/koyarxs/Project-02-CV-Yerko-Barrera-Septiembre-2026)
+
+Generador de CV a partir de una fuente de datos tipada, con HTML semántico y formato preparado para impresión.
+
+`TypeScript` · `Node.js` · `Node Test Runner` · `ESLint`
 
 ## Lo que aporto
 

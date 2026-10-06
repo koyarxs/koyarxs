@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="264" viewBox="0 0 1280 264" role="img" aria-labelledby="title desc">
   <title id="title">Yerko Barrera</title>
-  <desc id="desc">Ingeniero en Computacion e Informatica. Full Stack y calidad de software.</desc>
+  <desc id="desc">Ingeniero en Computación e Informática. Full Stack y calidad de software.</desc>
   <rect width="1280" height="264" rx="8" fill="#F6F8FA"/>
   <path d="M0 0h1280v5H0z" fill="#0969DA"/>
   <g font-family="Arial, Helvetica, sans-serif">
-    <text x="48" y="63" font-size="14" font-weight="700" fill="#0969DA">INGENIERIA / DESARROLLO DE SOFTWARE</text>
+    <text x="48" y="63" font-size="14" font-weight="700" fill="#0969DA">INGENIERÍA / DESARROLLO DE SOFTWARE</text>
     <text x="46" y="125" font-size="52" font-weight="700" fill="#17202A">Yerko Barrera</text>
-    <text x="48" y="167" font-size="21" fill="#3E4C59">Ingeniero en Computacion e Informatica</text>
+    <text x="48" y="167" font-size="21" fill="#3E4C59">Ingeniero en Computación e Informática</text>
     <text x="48" y="202" font-size="18" fill="#576574">Full Stack · Interfaces, APIs, datos y pruebas</text>
-    <text x="884" y="98" font-size="15" font-weight="700" fill="#576574">DEL PROBLEMA A LA SOLUCION</text>
+    <text x="884" y="98" font-size="15" font-weight="700" fill="#576574">DEL PROBLEMA A LA SOLUCIÓN</text>
     <text x="884" y="153" font-family="Consolas, monospace" font-size="34" font-weight="700" fill="#0969DA">&lt;build /&gt;</text>
-    <text x="884" y="190" font-size="15" fill="#3E4C59">Disenar. Integrar. Verificar.</text>
+    <text x="884" y="190" font-size="15" fill="#3E4C59">Diseñar. Integrar. Verificar.</text>
   </g>
   <path d="M826 60v142" stroke="#D0D7DE"/>
   <path d="M48 232h130" stroke="#0969DA" stroke-width="3"/>
