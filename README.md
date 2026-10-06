@@ -17,7 +17,6 @@ src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&dur
 alt="Typing SVG"
 />
 
-<br/><br/>
 
 ![Chile](https://img.shields.io/badge/Chile-🇨🇱-0A66C2?style=for-the-badge)
 ![Full Stack](https://img.shields.io/badge/Full%20Stack-Developer-38BDF8?style=for-the-badge)
