@@ -1,117 +1,109 @@
+<p align="center"><img src="assets/hero/profile-hero.svg" width="100%" alt="Yerko Barrera · Full Stack Developer · Ingeniero en Computación e Informática"></p>
+
+<p align="center"><img src="assets/animations/typing.svg" width="560" alt="Building scalable applications. Designing APIs. Connecting frontend and backend. Learning every day. Shipping real projects."></p>
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" alt="Yerko Barrera. Ingeniero en Computación e Informática. Desarrollo Full Stack y calidad de software." width="100%">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/animations/developer-workflow-poster.svg">
+  <source media="(max-width: 600px)" srcset="assets/animations/developer-workflow-mobile.svg">
+  <img src="assets/animations/developer-workflow.svg" width="100%" alt="Una sesión ilustrativa de desarrollo: abrir el workspace, escribir código, ejecutar pruebas, revisar Git y conectar frontend, API, datos e infraestructura.">
 </picture>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/yerko-andr%C3%A9s-barrera-pantoja-a82821123/"><img src="https://img.shields.io/badge/LinkedIn-Conversemos-0A66C2?style=flat-square" alt="Contactar por LinkedIn"></a>
-  <a href="https://github.com/koyarxs/Project-02-CV-Yerko-Barrera-Septiembre-2026"><img src="https://img.shields.io/badge/CV-Perfil_profesional-334155?style=flat-square" alt="Ver mi CV profesional"></a>
-  <img src="https://img.shields.io/badge/Ubicación-Viña_del_Mar%2C_Chile-087F8C?style=flat-square" alt="Viña del Mar, Chile">
-</p>
+<p align="center"><b>Building real-world software.</b><br><sub>Build in public. Learn through projects.</sub></p>
 
-## Sobre mí
+<details>
+<summary>Ver la sesión en texto</summary>
 
-Soy **Yerko Andrés Barrera Pantoja**, Ingeniero en Computación e Informática de la **Universidad Andrés Bello**, mención Desarrollo de Software, con orientación **Full Stack**.
+Workspace → código → pruebas → Git → arquitectura Full Stack → proyectos.
+La animación es una sesión ilustrativa, no un reporte real de tests o despliegues.
 
-Tengo más de cuatro años de experiencia en TI, soporte N1/N2 y continuidad operativa, además de experiencia freelance en desarrollo de software. Hoy aplico esa base al diseño de aplicaciones que conectan **interfaces, APIs, datos y pruebas**.
+</details>
 
-Me interesa construir soluciones claras, mantenibles y útiles: desde una interfaz bien resuelta hasta una API validada, una base de datos consistente y un flujo de trabajo trazable.
+## Who am I
 
-> Mi enfoque: entender el problema, construir la solución y comprobar que funciona.
+Soy **Yerko Andrés Barrera Pantoja**, Ingeniero en Computación e Informática de la **Universidad Andrés Bello**, mención Desarrollo de Software. Construyo aplicaciones Full Stack y sigo aprendiendo con proyectos reales.
 
-## Stack tecnológico
+Mi experiencia en **TI, soporte N1/N2 y continuidad operativa**, junto con desarrollo freelance en PHP/Laravel, me ayuda a conectar el código con los problemas que necesita resolver.
 
-### Frontend
+<details>
+<summary>whoami / terminal</summary>
+<br>
+<img src="assets/animations/terminal-intro.svg" width="640" alt="yerko@dev: whoami. Full Stack Developer. current-projects: FraudShield, FlyMaster, Pawly. status: Building.">
+</details>
 
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=20232A" alt="JavaScript">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
-  <img src="https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-0E7490?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
-</p>
+## Tech stack
 
-Interfaces responsive, componentes reutilizables, HTML5, CSS3 y CSS Modules. Experiencia con Vite y visualización interactiva con Three.js en FlyMaster.
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/stack/tech-stack-mobile.svg">
+  <img src="assets/stack/tech-stack.svg" width="100%" alt="Frontend: React, Next.js, TypeScript, Tailwind. Backend: NestJS, Node.js, PHP, Laravel. Database: PostgreSQL, Prisma, MySQL. DevOps: Docker, GitHub Actions, Git. Tools: Jest, Postman, Jira.">
+</picture>
 
-### Backend y datos
+**Mi foco:** interfaces responsive, APIs REST, persistencia, validación y pruebas. Trabajo con Jest, Supertest, Playwright, ESLint, Docker Compose y revisión de código; organizo el desarrollo con Scrum y Jira.
 
-<p>
-  <img src="https://img.shields.io/badge/Node.js-417E38?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/Prisma-1B222D?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
-</p>
-
-APIs REST, SQL, validación de entradas, autenticación JWT y autorización. Integración entre frontend, backend y persistencia; correo transaccional con SMTP y Nodemailer.
-
-**Experiencia complementaria:** PHP, Laravel, Express, MongoDB, pgAdmin y MySQL Workbench. Mi trabajo freelance con PHP/Laravel y MySQL complementa el stack TypeScript de mis proyectos actuales.
-
-### Calidad y herramientas
-
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
-  <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest">
-  <img src="https://img.shields.io/badge/Playwright-287A3E?style=for-the-badge" alt="Playwright">
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman">
-</p>
-
-Docker Compose, pruebas unitarias y E2E, Supertest, Selenium, ESLint y verificación de builds. Trabajo con Git/GitHub, revisión de código, Scrum y Jira para mantener cambios y decisiones trazables.
-
-## Proyectos destacados
+## Featured projects
 
 ### [FraudShield](https://github.com/koyarxs/Project-01-FraudShield-Septiembre-2026)
 
-**Proyecto de título · MVP v1.0.0 estable**
+[![FraudShield: preview conceptual del flujo CSV, reglas y clasificación de riesgo](assets/projects/fraudshield.webp)](https://github.com/koyarxs/Project-01-FraudShield-Septiembre-2026)
 
-Clasificación de riesgo transaccional con carga CSV, procesamiento por lotes, reglas, score, dashboard y trazabilidad. Trabaja con datos simulados y clasifica riesgo; no confirma fraude.
+**Proyecto de título · MVP v1.0.0 estable.** Clasificación de riesgo transaccional por lotes, reglas, score y trazabilidad. Datos simulados; clasifica riesgo, no confirma fraude.
 
 `Next.js` · `NestJS` · `PostgreSQL` · `Prisma` · `JWT` · `Docker`
 
-### [Pawly](https://github.com/koyarxs/Project-04-Pawly-Octubre-2026)
-
-**Proyecto personal · En desarrollo**
-
-Plataforma orientada a la gestión del bienestar de mascotas, desarrollada progresivamente con Scrum, Jira y revisión de código.
-
-`Next.js` · `NestJS` · `TypeScript` · `PostgreSQL` · `Prisma` · `Docker`
+[View project →](https://github.com/koyarxs/Project-01-FraudShield-Septiembre-2026)
 
 ### FlyMaster
 
-**Proyecto privado · En desarrollo**
+![FlyMaster: preview conceptual de interfaz, API, PostgreSQL y correo](assets/projects/flymaster.webp)
 
-Plataforma de servicios aéreos con landing responsive, flota 3D, planes, portafolio y consultas persistidas con notificación por correo.
+**Proyecto privado · En desarrollo.** Plataforma de servicios aéreos con landing responsive, flota 3D, portafolio y consultas guardadas con notificación por correo.
 
-`Next.js` · `React` · `Three.js` · `NestJS` · `PostgreSQL` · `Prisma Next` · `QA`
+`Next.js` · `React` · `Three.js` · `NestJS` · `PostgreSQL` · `Prisma Next`
 
-### [CV profesional ATS](https://github.com/koyarxs/Project-02-CV-Yerko-Barrera-Septiembre-2026)
+[Conversar sobre el proyecto →](https://www.linkedin.com/in/yerko-andr%C3%A9s-barrera-pantoja-a82821123/)
 
-Generador de CV a partir de una fuente de datos tipada, con HTML semántico y formato preparado para impresión.
+### [Pawly](https://github.com/koyarxs/Project-04-Pawly-Octubre-2026)
 
-`TypeScript` · `Node.js` · `Node Test Runner` · `ESLint`
+[![Pawly: preview conceptual de su arquitectura propuesta, con frontend inicial y servicios planificados](assets/projects/pawly.webp)](https://github.com/koyarxs/Project-04-Pawly-Octubre-2026)
 
-## Lo que aporto
+**Proyecto personal · Etapa inicial.** Plataforma para el bienestar de mascotas. Frontend Next.js iniciado; evolución Full Stack planificada, con Scrum y Jira.
 
-- **Visión de extremo a extremo:** conectar experiencia de usuario, lógica de negocio, API y datos.
-- **Calidad verificable:** validar entradas, probar flujos y revisar resultados de lint, tipos y compilación.
-- **Base operativa en TI:** entender incidencias, documentar soluciones y considerar la continuidad del servicio.
-- **Trabajo ordenado:** mantener contratos claros, cambios enfocados y control de versiones trazable.
+`Next.js` · `React` · `TypeScript` / **Stack propuesto:** `NestJS` · `PostgreSQL` · `Prisma` · `Docker`
 
-## Trayectoria y formación
+[View project →](https://github.com/koyarxs/Project-04-Pawly-Octubre-2026)
 
-| Etapa | Experiencia |
-| :--- | :--- |
-| 2021–2022 | Soporte TI en Nutech / Universidad Andrés Bello. |
-| 2022–2025 | Soporte N1/N2 en TIC Services / Hospital Gustavo Fricke. |
-| 2025–2026 | Soporte TI en Grupo Belator. |
-| 2025 | Desarrollo de software freelance en Reimpact con PHP, Laravel y MySQL. |
-| 2024–2026 | Ingeniería en Computación e Informática, Universidad Andrés Bello. **Titulado**, mención Desarrollo de Software. |
-| 2020 | Técnico Programador Computacional, Instituto Profesional AIEP. **Titulado**. |
+## Currently building
 
-La experiencia detallada y los cursos están disponibles en mi [CV profesional](https://github.com/koyarxs/Project-02-CV-Yerko-Barrera-Septiembre-2026).
+<img src="assets/animations/currently-building.svg" width="100%" alt="Trabajo actual: FlyMaster y Pawly. Indicadores animados sin porcentajes de avance.">
 
----
+## GitHub activity
 
-**¿Conversamos sobre desarrollo de software?** Puedes encontrarme en [LinkedIn](https://www.linkedin.com/in/yerko-andr%C3%A9s-barrera-pantoja-a82821123/) o revisar mis [repositorios públicos](https://github.com/koyarxs?tab=repositories).
+### Public profile / stats
+
+<img src="assets/activity/stats.svg" width="100%" alt="Estadísticas públicas de GitHub, generadas automáticamente desde la API y fechadas.">
+
+### Contribution activity
+
+<img src="assets/activity/calendar.svg" width="100%" alt="Calendario de contribuciones visibles, generado a partir de los datos de GitHub.">
+
+<details>
+<summary>Contribution animation</summary>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/animations/contribution-dark.svg">
+  <img src="assets/animations/contribution.svg" width="100%" alt="Contribution snake generada automáticamente con la actividad visible en GitHub.">
+</picture>
+</details>
+
+## Dev showreel
+
+<img src="assets/video/profile-showreel-thumbnail.webp" width="100%" alt="Watch my dev showreel. Workstation de código, pruebas y arquitectura.">
+
+<sub>Showreel en preparación. El enlace al video se añadirá cuando esté publicado.</sub>
+
+## Let's connect
+
+**Construyo, aprendo, pruebo y sigo avanzando.**
+
+[LinkedIn](https://www.linkedin.com/in/yerko-andr%C3%A9s-barrera-pantoja-a82821123/) · [CV profesional](https://github.com/koyarxs/Project-02-CV-Yerko-Barrera-Septiembre-2026) · [Repositorios públicos](https://github.com/koyarxs?tab=repositories)
+
+<p align="center"><img src="assets/hero/sign-off.svg" width="100%" alt="Build. Learn. Ship. Repeat."></p>

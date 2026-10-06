@@ -1,0 +1,58 @@
+name: Profile Activity
+
+on:
+  schedule:
+    - cron: '20 7 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/contribution-animation.yml'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'package*.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-activity
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'koyarxs/koyarxs'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - name: Update public stats and calendar
+        run: npm run update:activity
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate contribution animation
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/animations/contribution.svg?color_snake=#7bb8f2&color_dots=#ebedf0,#c4def4,#8ebde7,#5799c7,#3279b0
+            assets/animations/contribution-dark.svg?palette=github-dark&color_snake=#84bfff&color_dots=#232a32,#274665,#37678f,#5799c7,#91cdff
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: npm test
+      - name: Publish generated snapshots
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/activity/stats.svg assets/activity/calendar.svg assets/animations/contribution.svg assets/animations/contribution-dark.svg
+          if git diff --cached --quiet; then
+            echo 'Snapshots unchanged.'
+          else
+            git commit -m 'chore: refresh public profile activity'
+            git push origin HEAD:main
+          fi
