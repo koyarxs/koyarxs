@@ -15,12 +15,41 @@ test('SVG assets do not execute code or load external resources',async()=>{
 });
 test('static assets load locally and remain within the profile budget',async()=>{
   const readme=await readFile('README.md','utf8');
-  const generated=['assets/activity/stats.svg','assets/activity/calendar.svg','assets/animations/contribution.svg','assets/animations/contribution-dark.svg'];
   for(const match of readme.matchAll(/assets\/[a-z\d/.-]+\.(?:svg|webp)/gi)){
-    if(!generated.includes(match[0]))assert.ok((await stat(match[0])).isFile(),match[0]);
+    assert.ok((await stat(match[0])).isFile(),match[0]);
   }
   let bytes=0;for(const path of await files('assets'))bytes+=(await stat(path)).size;
   assert.ok(bytes<2_000_000,`Profile assets too heavy: ${bytes}`);
+});
+test('Developer World assets have accessible titles, viewBoxes and reduced motion',async()=>{
+  const dirs=['banners','characters','illustrations','svg','icons'];
+  const paths=(await Promise.all(dirs.map(dir=>files('assets/'+dir)))).flat();
+  paths.push('assets/animations/world-terminal.svg','assets/animations/world-workflow.svg','assets/animations/world-workflow-mobile.svg');
+  let bytes=0;
+  for(const path of paths){
+    const content=await readFile(path,'utf8');
+    assert.match(content,/viewBox="0 0 \d+ \d+"/,path);
+    assert.match(content,/<title id="title">[^<]+<\/title>/,path);
+    assert.match(content,/<desc id="desc">[^<]+<\/desc>/,path);
+    assert.match(content,/prefers-reduced-motion:reduce/,path);
+    assert.doesNotMatch(content,/https?:\/\/(?!www.w3.org)/,path);
+    bytes+=(await stat(path)).size;
+  }
+  assert.equal(paths.length,39);
+  assert.ok(bytes<300_000,`Developer World budget exceeded: ${bytes}`);
+});
+test('profile exposes professional information and distinguishes its learning roadmap',async()=>{
+  const readme=await readFile('README.md','utf8');
+  assert.match(readme,/Licenciado en Ingeniería/);
+  assert.match(readme,/recién titulado/);
+  assert.match(readme,/experiencia previa en \*\*soporte TI/);
+  assert.match(readme,/Future quest/);
+  assert.match(readme,/no confirma fraude/);
+  assert.match(readme,/evolución Full Stack planificada/);
+  assert.match(readme,/Scientifically inaccurate|scientifically inaccurate/);
+  assert.doesNotMatch(readme,/Senior Developer|certificado en AWS|experto en Kubernetes|\d+ años como developer/i);
+  assert.equal((readme.match(/<details>/g)||[]).length,(readme.match(/<\/details>/g)||[]).length);
+  assert.equal((readme.match(/<picture>/g)||[]).length,(readme.match(/<\/picture>/g)||[]).length);
 });
 test('the workflow is explicitly illustrative and supports reduced motion',async()=>{
   const svg=await readFile('assets/animations/developer-workflow.svg','utf8');

@@ -14,6 +14,26 @@ no contienen JavaScript, fuentes externas, iframes ni contenido interactivo.
 
 ## Animaciones
 
+La propuesta local nueva es `Yerko's Developer World`. Se genera con
+`scripts/build-world.mjs`: personajes vectoriales originales y doce escenarios
+cartoon distintos. El generador anterior se conserva como `build:legacy`;
+sus recursos no forman parte del nuevo recorrido visible.
+
+La identidad academica adicional (Licenciado en Ingenieria), los hobbies y el
+roadmap proceden del brief confirmado por el propietario. No se agregan anos
+como desarrollador, seniority, certificaciones ni experiencia cloud/Kubernetes.
+Vite, React Native, AWS/Azure/Cloudflare, Kubernetes y herramientas de testing
+no acreditadas se separan del stack aplicado. MongoDB se presenta en
+profundizacion, no como experiencia experta.
+
+Las escenas tienen viewBox, title, desc y texto alternativo. Sus animaciones CSS
+se detienen con prefers-reduced-motion. No hay enlaces interactivos dentro del
+SVG: la exploracion utiliza enlaces Markdown y details/summary permitidos.
+"Online" es un estado ficticio de videojuego, no presencia en tiempo real;
+las barras Developer Energy se identifican como humor, no mediciones.
+
+Ver `docs/DEVELOPER-WORLD-REVIEW.md` para el inventario completo, QA y limites.
+
 `developer-workflow.svg` cuenta una secuencia de 12 segundos: boot, codigo,
 terminal, arquitectura, proyectos y cierre. La escena de terminal dice
 `ILLUSTRATIVE SESSION`: no es evidencia de una ejecucion real y no muestra
@@ -61,3 +81,9 @@ Cuando exista una URL real, envolver su imagen en un enlace Markdown a esa URL.
 Revisar el render real de GitHub en escritorio, movil, tema claro y oscuro,
 la animacion tras Camo/raw, el movimiento reducido y las imagenes generadas.
 El codigo de otros repositorios no se modifica desde este proyecto.
+
+La entrega inicial se hizo sin commit ni push; el propietario autorizo
+posteriormente su publicacion en GitHub. La vista previa usa el HTML
+saneado por POST /markdown de GitHub, CSS github-markdown-css y SVG locales.
+La version anterior ya demostro movimiento SVG en el perfil publicado, pero
+esta version nueva requiere una comprobacion final tras autorizar publicacion.

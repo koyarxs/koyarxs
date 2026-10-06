@@ -3,7 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build:visuals": "node scripts/build-visuals.mjs",
+    "build:visuals": "node scripts/build-world.mjs",
+    "build:legacy": "node scripts/build-visuals.mjs",
     "update:activity": "node scripts/update-activity.mjs",
     "test": "node --test tests/*.test.mjs"
   },
