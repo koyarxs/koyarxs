@@ -3,7 +3,7 @@
 
 <img src="./assets/banner-yerko.png" alt="Yerko Barrera - Software Engineer" width="100%" />
 
-# YERKO BARRERA
+# Yerko Barrera P.
 
 ### Ingeniero en Computación e Informática
 **Full Stack Developer · Software Engineering · DevOps**
