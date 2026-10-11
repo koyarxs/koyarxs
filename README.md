@@ -1,276 +1,325 @@
-<!-- ============================================================ -->
-<!--                    YERKO BARRERA PANTOJA                     -->
-<!--                    GITHUB PROFILE README                     -->
-<!-- ============================================================ -->
 
 <div align="center">
 
-<img
-  src="./assets/banner-yerko.png"
-  width="100%"
-  alt="Yerko Barrera Pantoja | Ingeniero en Computación e Informática | Full Stack Developer"
-/>
+<img src="./assets/banner-yerko.png" alt="Yerko Barrera - Software Engineer" width="100%" />
 
-# 👨‍💻 Yerko Barrera | Software Engineer
+# YERKO BARRERA
 
-<div align="center">
+### Ingeniero en Computación e Informática
+**Full Stack Developer · Software Engineering · DevOps**
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=850&lines=Hola%2C+soy+Yerko+Barrera+%F0%9F%91%8B;Ingeniero+en+Computaci%C3%B3n+e+Inform%C3%A1tica;Full+Stack+Developer;Construyendo+soluciones+con+tecnolog%C3%ADa)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=1100&color=58A6FF&center=true&vCenter=true&width=650&lines=Desarrollando+soluciones+digitales;Transformando+ideas+en+software;Aprendiendo%2C+construyendo+y+mejorando" alt="Presentación animada" />
 
-**Ingeniero en Computación e Informática | Licenciado**
-
-Desarrollo Full Stack · Arquitectura de Software · DevOps · Seguridad
-
-[![GitHub](https://img.shields.io/badge/GitHub-koyarxs-181717?style=for-the-badge&logo=github)](https://github.com/koyarxs)
-![Location](https://img.shields.io/badge/Chile-Valpara%C3%ADso-0077B6?style=for-the-badge&logo=googlemaps&logoColor=white)
-![Focus](https://img.shields.io/badge/Focus-Full%20Stack%20Development-2563EB?style=for-the-badge)
+[![GitHub](https://img.shields.io/badge/GitHub-koyarxs-181717?style=flat-square&logo=github)](https://github.com/koyarxs)
+![Chile](https://img.shields.io/badge/Chile-Valparaíso-2563EB?style=flat-square)
+![Focus](https://img.shields.io/badge/Enfoque-Full_Stack-0F766E?style=flat-square)
 
 </div>
 
 ---
 
-## 🚀 Sobre mí
+## 01 · SOBRE MÍ
 
-Soy **Ingeniero en Computación e Informática**, recién titulado de la Universidad Andrés Bello, con experiencia en soporte tecnológico y un enfoque profesional orientado al desarrollo de software.
+Soy **Ingeniero en Computación e Informática**, titulado de la Universidad Andrés Bello, con experiencia en soporte tecnológico y una orientación profesional hacia el desarrollo de software.
 
-Me apasiona diseñar soluciones digitales, comprender cómo funcionan los sistemas y transformar ideas en aplicaciones funcionales, escalables y mantenibles.
+Me interesa construir soluciones digitales desde su diseño hasta su implementación, combinando tecnologías modernas, arquitectura de software, calidad y seguridad.
 
-Actualmente desarrollo proyectos propios aplicando tecnologías modernas, buenas prácticas de ingeniería de software y metodologías ágiles.
-
-- 💻 Desarrollo de aplicaciones Full Stack.
-- 🧠 Interés en arquitectura de software y soluciones escalables.
-- 🐳 Trabajo con contenedores, bases de datos y herramientas de desarrollo.
-- 🔐 Formación continua en seguridad informática.
-- 📱 Explorando el desarrollo de aplicaciones móviles.
-- 🎮 En mis tiempos libres disfruto los videojuegos y la tecnología.
-- 🎯 Objetivo: seguir creciendo como Ingeniero de Software.
+| Área | Enfoque |
+|:---|:---|
+| **Desarrollo** | Aplicaciones web Full Stack y APIs |
+| **Ingeniería** | Arquitectura, buenas prácticas y mantenibilidad |
+| **Infraestructura** | Contenedores, automatización y despliegue |
+| **Seguridad** | Desarrollo seguro y protección de aplicaciones |
+| **Metodología** | Scrum, planificación y mejora continua |
+| **Intereses** | Tecnología, programación y videojuegos |
 
 ---
 
-## 🛠️ Mi ecosistema tecnológico
+## 02 · STACK TECNOLÓGICO
 
-### 🎨 Frontend
+### 2.1 · Frontend
 
-<div align="center">
+<div align="left">
 
-![Frontend](https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,vite&perline=8)
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="36" height="36" alt="HTML5" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="36" height="36" alt="CSS3" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="36" height="36" alt="JavaScript" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="36" height="36" alt="TypeScript" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="36" height="36" alt="React" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" width="36" height="36" alt="Next.js" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="36" height="36" alt="Tailwind CSS" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" width="36" height="36" alt="Vite" />
+
+</div>
 
 **HTML5 · CSS3 · JavaScript · TypeScript · React · Next.js · Tailwind CSS · Vite**
 
-</div>
+### 2.2 · Backend y APIs
 
-### ⚙️ Backend y APIs
+<div align="left">
 
-<div align="center">
-
-![Backend](https://skillicons.dev/icons?i=nodejs,nestjs,express,prisma&perline=8)
-
-**Node.js · NestJS · Express.js · Prisma ORM · REST APIs · Swagger / OpenAPI**
-
-</div>
-
-### 🗄️ Bases de datos
-
-<div align="center">
-
-![Databases](https://skillicons.dev/icons?i=postgres,mongodb,mysql&perline=8)
-
-**PostgreSQL · MongoDB · MySQL · SQL · Modelamiento de datos**
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="36" height="36" alt="Node.js" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" width="36" height="36" alt="NestJS" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" width="36" height="36" alt="Express.js" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg" width="36" height="36" alt="Swagger" />
 
 </div>
 
-### 🐳 DevOps y herramientas
+**Node.js · NestJS · Express.js · TypeScript · REST APIs · Swagger / OpenAPI**
 
-<div align="center">
+### 2.3 · Bases de datos y ORM
 
-![DevOps](https://skillicons.dev/icons?i=docker,git,github,githubactions,linux,windows,vscode,postman&perline=8)
+<div align="left">
 
-**Docker · Docker Compose · Git · GitHub · Linux · VS Code · Postman · CI/CD**
-
-</div>
-
-### 🧪 Testing y calidad
-
-<div align="center">
-
-![Testing](https://skillicons.dev/icons?i=jest,vitest,selenium&perline=8)
-
-**Jest · Vitest · Selenium · Testing E2E · ESLint · Prettier · SonarQube**
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="36" height="36" alt="PostgreSQL" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" width="36" height="36" alt="MongoDB" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg" width="36" height="36" alt="Prisma" />
 
 </div>
 
-### 📚 Tecnologías en aprendizaje y profundización
+**PostgreSQL · MongoDB · SQL · Prisma ORM**
 
-<div align="center">
+### 2.4 · Desarrollo Mobile
 
-![Learning](https://skillicons.dev/icons?i=aws,azure,kubernetes,cloudflare,kali,react&perline=6)
+<div align="left">
 
-**AWS · Microsoft Azure · Kubernetes · Cloudflare · Kali Linux · React Native**
-
-Arquitectura de microservicios · Seguridad OWASP · Cloud · Mobile Development
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="36" height="36" alt="React Native" />
 
 </div>
+
+**React Native** — Área de aprendizaje y desarrollo multiplataforma.
+
+### 2.5 · Testing y calidad
+
+<div align="left">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg" width="36" height="36" alt="Jest" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitest/vitest-original.svg" width="36" height="36" alt="Vitest" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg" width="36" height="36" alt="Selenium" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eslint/eslint-original.svg" width="36" height="36" alt="ESLint" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prettier/prettier-original.svg" width="36" height="36" alt="Prettier" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sonarqube/sonarqube-original.svg" width="36" height="36" alt="SonarQube" />
+
+</div>
+
+**Vitest · Jest · Testing E2E · Selenium · ESLint · Oxlint · Prettier · SonarQube**
+
+### 2.6 · DevOps e infraestructura
+
+<div align="left">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="36" height="36" alt="Docker" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" width="36" height="36" alt="GitHub Actions" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg" width="36" height="36" alt="Kubernetes" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width="36" height="36" alt="Linux" />
+
+</div>
+
+**Docker · Docker Compose · GitHub Actions · CI/CD · Kubernetes**
+
+### 2.7 · Cloud
+
+<div align="left">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="52" height="36" alt="AWS" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" width="36" height="36" alt="Azure" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflare/cloudflare-original.svg" width="36" height="36" alt="Cloudflare" />
+
+</div>
+
+**AWS · Microsoft Azure · Cloudflare**
+
+*Área de profundización profesional.*
+
+### 2.8 · Ciberseguridad
+
+| Especialidad | Tecnologías y prácticas |
+|:---|:---|
+| **Seguridad web** | OWASP Top 10, Secure Coding |
+| **Seguridad de APIs** | JWT, autenticación, autorización y RBAC |
+| **Protección** | Gestión de secretos, validación y controles de acceso |
+| **Análisis** | Vulnerabilidades y dependencias |
+| **Auditoría** | Logging, trazabilidad y monitoreo |
+| **Formación** | Kali Linux y Cisco CyberOps |
+
+### 2.9 · Arquitectura de software
+
+| Área | Conceptos |
+|:---|:---|
+| **Diseño** | Clean Code, SOLID y patrones de diseño |
+| **Organización** | Arquitectura modular |
+| **Arquitectura avanzada** | Hexagonal y microservicios |
+| **Documentación** | UML y diagramas de arquitectura |
+| **Integraciones** | REST APIs y contratos OpenAPI |
+
+### 2.10 · Analytics, SEO y Performance
+
+| Área | Enfoque |
+|:---|:---|
+| **Analytics** | Google Analytics 4 y medición de eventos |
+| **SEO técnico** | Metadatos, indexación y estructura semántica |
+| **Performance** | Core Web Vitals, Lighthouse y optimización web |
+| **Accesibilidad** | HTML semántico y buenas prácticas de accesibilidad |
+
+### 2.11 · Herramientas y colaboración
+
+<div align="left">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="36" height="36" alt="Git" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="36" height="36" alt="GitHub" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="36" height="36" alt="VS Code" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="36" height="36" alt="Postman" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" width="36" height="36" alt="Jira" />
+
+</div>
+
+| Categoría | Herramientas y prácticas |
+|:---|:---|
+| **Versionamiento** | Git, GitHub, Feature Branches |
+| **Colaboración** | Pull Requests, Code Review |
+| **Commits** | Conventional Commits |
+| **Gestión ágil** | Scrum, Jira, Sprints, Backlog |
+| **Desarrollo** | VS Code, Postman, pgAdmin, Linux |
 
 ---
 
-## 📂 Proyectos destacados
+## 03 · PROYECTOS DESTACADOS
 
-### 🛡️ FraudShield — Sistema de análisis de riesgo
+### FraudShield · Análisis de riesgo financiero
 
-Sistema Full Stack orientado a la clasificación de riesgo de transacciones financieras mediante procesamiento por lotes y reglas de evaluación.
+Sistema Full Stack de procesamiento por lotes para clasificar transacciones financieras mediante reglas de evaluación de riesgo.
 
-**Características:**
-- Clasificación de riesgo bajo, medio y alto.
-- Procesamiento de archivos y transacciones.
-- Arquitectura frontend/backend.
-- Persistencia de datos relacionales.
-- Pruebas unitarias y end-to-end.
-- Trazabilidad y registros de auditoría.
+| Aspecto | Descripción |
+|:---|:---|
+| **Frontend** | Next.js, React, TypeScript, Tailwind CSS |
+| **Backend** | NestJS, Node.js |
+| **Datos** | PostgreSQL, Prisma |
+| **Infraestructura** | Docker |
+| **Calidad** | 32 pruebas unitarias y 7 pruebas E2E superadas |
+| **Funcionalidad** | Riesgos bajo, medio y alto; auditoría y trazabilidad |
 
-**Stack:** Next.js · React · TypeScript · NestJS · PostgreSQL · Prisma · Docker
+[![Repositorio](https://img.shields.io/badge/Explorar_FraudShield-2563EB?style=for-the-badge&logo=github)](https://github.com/koyarxs/Project-02-Fraudshield-2026)
 
-[![Repository](https://img.shields.io/badge/Ver_repositorio-FraudShield-2563EB?style=for-the-badge&logo=github)](https://github.com/koyarxs/Project-02-Fraudshield-2026)
+### Pawly · Plataforma Full Stack
 
----
+Proyecto en desarrollo, organizado mediante Scrum y gestión de actividades con Jira.
 
-### 🐾 Pawly — Plataforma Full Stack
+| Aspecto | Descripción |
+|:---|:---|
+| **Frontend** | Next.js, TypeScript, Tailwind CSS |
+| **Metodología** | Scrum |
+| **Gestión** | Jira, épicas, historias y subtareas |
+| **Versionamiento** | Feature Branches, commits y Pull Requests |
+| **Estado** | En desarrollo |
 
-Proyecto de desarrollo de software organizado mediante Scrum, con planificación de épicas, historias de usuario, tareas técnicas y control de versiones.
+[![Repositorio](https://img.shields.io/badge/Explorar_Pawly-2563EB?style=for-the-badge&logo=github)](https://github.com/koyarxs/Project-03-Pawly)
 
-**Características:**
-- Arquitectura de proyecto estructurada.
-- Frontend con Next.js.
-- Gestión del desarrollo mediante Jira.
-- Flujo de trabajo con ramas y Pull Requests.
-- Documentación técnica y evidencias.
-- Desarrollo incremental por sprints.
+### FlyMaster · Plataforma web empresarial
 
-**Stack:** Next.js · TypeScript · Tailwind CSS · Git · GitHub · Jira
+Sitio web corporativo para una empresa de servicios con drones, con enfoque en diseño, experiencia de usuario y desarrollo Full Stack.
 
-**Estado:** En desarrollo.
+| Aspecto | Descripción |
+|:---|:---|
+| **Frontend** | Next.js, React, TypeScript |
+| **Backend** | NestJS |
+| **Datos** | PostgreSQL |
+| **Infraestructura** | Docker Compose |
+| **Enfoque** | UI/UX, diseño responsive y servicios web |
 
-[![Repository](https://img.shields.io/badge/Ver_repositorio-Pawly-2563EB?style=for-the-badge&logo=github)](https://github.com/koyarxs/Project-03-Pawly)
+[![Sitio web](https://img.shields.io/badge/Visitar_FlyMaster-0284C7?style=for-the-badge&logo=googlechrome)](https://flymaster.cl)
+[![Repositorio](https://img.shields.io/badge/Ver_Código-2563EB?style=for-the-badge&logo=github)](https://github.com/koyarxs/Project-03-FlyMaster-Octubre-2026)
 
----
+### CV Web · Presentación profesional
 
-### 🚁 FlyMaster — Plataforma web empresarial
+Currículum digital desarrollado con un enfoque en diseño responsive, HTML semántico y legibilidad para sistemas ATS.
 
-Proyecto web para una empresa de servicios con drones, enfocado en experiencia de usuario, presentación de servicios, diseño responsive y arquitectura Full Stack.
+| Aspecto | Descripción |
+|:---|:---|
+| **Tecnologías** | HTML, CSS, JavaScript |
+| **Enfoque** | Accesibilidad y compatibilidad ATS |
+| **Objetivo** | Presentación profesional y portafolio |
 
-**Características:**
-- Landing page corporativa.
-- Diseño moderno y adaptable.
-- Secciones comerciales y presentación de servicios.
-- Backend desarrollado con NestJS.
-- Base de datos PostgreSQL mediante Docker.
-- Organización modular del proyecto.
-
-**Stack:** Next.js · React · TypeScript · NestJS · PostgreSQL · Docker
-
-[![Website](https://img.shields.io/badge/Visitar_website-FlyMaster-0284C7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://flymaster.cl)
-[![Repository](https://img.shields.io/badge/Ver_repositorio-FlyMaster-2563EB?style=for-the-badge&logo=github)](https://github.com/koyarxs/Project-03-FlyMaster-Octubre-2026)
-
----
-
-### 📄 CV Web — Currículum profesional
-
-Proyecto de currículum digital orientado a la presentación profesional, estructura semántica, accesibilidad y compatibilidad con sistemas ATS.
-
-**Características:**
-- Diseño profesional y responsive.
-- Estructura HTML semántica.
-- Presentación de experiencia y competencias.
-- Enfoque en legibilidad y compatibilidad ATS.
-
-**Stack:** HTML · CSS · JavaScript
-
-[![Repository](https://img.shields.io/badge/Ver_repositorio-CV_Web-2563EB?style=for-the-badge&logo=github)](https://github.com/koyarxs/Proyecto-04-CV-Yerko-Barrera-Septiembre-2026)
+[![Repositorio](https://img.shields.io/badge/Explorar_CV_Web-2563EB?style=for-the-badge&logo=github)](https://github.com/koyarxs/Proyecto-04-CV-Yerko-Barrera-Septiembre-2026)
 
 ---
 
-## 📊 Estadísticas de GitHub
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=koyarxs&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=koyarxs&layout=compact&theme=tokyonight&hide_border=true)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=koyarxs&theme=tokyonight&hide_border=true)
-
-</div>
-
----
-
-## 📈 Actividad y contribuciones
-
-<div align="center">
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=koyarxs&theme=tokyo-night&hide_border=true&area=true)
-
-</div>
-
----
-
-## 🧭 Mi ruta de crecimiento profesional
+## 04 · FLUJO DE TRABAJO
 
 ```text
-INGENIERÍA DE SOFTWARE
-│
-├── Full Stack Development
-│   ├── Frontend moderno
-│   ├── Backend y APIs
-│   └── Bases de datos
-│
-├── Arquitectura de Software
-│   ├── Clean Architecture
-│   ├── SOLID
-│   └── Microservicios
-│
-├── DevOps
-│   ├── Docker
-│   ├── CI/CD
-│   └── Kubernetes
-│
-├── Ciberseguridad
-│   ├── OWASP Top 10
-│   ├── Seguridad de aplicaciones
-│   └── Análisis de vulnerabilidades
-│
-└── Desarrollo Mobile
-    └── React Native
+ANÁLISIS Y PLANIFICACIÓN
+          |
+          v
+   DISEÑO DE SOLUCIÓN
+          |
+          v
+  DESARROLLO FULL STACK
+          |
+          v
+   TESTING Y CALIDAD
+          |
+          v
+   CODE REVIEW Y GIT
+          |
+          v
+  DESPLIEGUE Y MEJORA
 ```
 
----
-
-## 🧠 Mi filosofía de desarrollo
-
-> No se trata solamente de escribir código, sino de comprender problemas, diseñar soluciones y construir software que aporte valor.
-
-Me interesa el ciclo completo del desarrollo: desde el análisis y la planificación hasta la implementación, las pruebas y la mejora continua.
+**Mi enfoque:** comprender el problema, estructurar la solución, desarrollar, probar, documentar y mejorar continuamente.
 
 ---
 
-## 🤝 Conectemos
+## 05 · ACTIVIDAD EN GITHUB
 
 <div align="center">
 
-¿Tienes una idea, proyecto o una oportunidad de colaboración?
+<img src="https://github-readme-stats.vercel.app/api?username=koyarxs&show_icons=true&theme=github_dark&hide_border=true" alt="Estadísticas de GitHub" />
 
-Me interesa participar en iniciativas relacionadas con desarrollo de software, tecnología e innovación.
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=koyarxs&layout=compact&theme=github_dark&hide_border=true" alt="Lenguajes más utilizados" />
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/koyarxs)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=koyarxs&theme=github-dark&hide_border=true&area=true" alt="Actividad de GitHub" />
 
 </div>
 
 ---
 
+## 06 · FORMACIÓN Y CRECIMIENTO
+
+| Formación | Detalle |
+|:---|:---|
+| **Ingeniería** | Ingeniería en Computación e Informática |
+| **Universidad** | Universidad Andrés Bello |
+| **Grado académico** | Licenciado |
+| **Formación técnica** | Técnico Programador Computacional, AIEP |
+| **Experiencia** | 4 años en soporte tecnológico N1/N2 |
+| **Objetivo profesional** | Full Stack Developer / Ingeniero de Software |
+
+### Áreas de profundización
+
+| Especialidad | Objetivo |
+|:---|:---|
+| **Arquitectura** | Microservicios y arquitectura hexagonal |
+| **DevOps** | Kubernetes y automatización CI/CD |
+| **Cloud** | AWS, Azure y Cloudflare |
+| **Ciberseguridad** | OWASP, seguridad de APIs y Cisco CyberOps |
+| **Mobile** | Desarrollo multiplataforma con React Native |
+
+---
+
+## 07 · CONTACTO
+
 <div align="center">
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:2563EB,100:38BDF8&height=120&section=footer)
+### ¿Construimos algo interesante?
 
-**Diseñado con dedicación, curiosidad y muchas líneas de código.**
+Me interesan los proyectos de desarrollo de software, las oportunidades profesionales y la colaboración tecnológica.
 
-`</>` **Yerko Barrera · Chile**
+[![GitHub](https://img.shields.io/badge/GitHub-koyarxs-181717?style=for-the-badge&logo=github)](https://github.com/koyarxs)
+
+**Valparaíso, Chile**
+
+---
+
+<sub>Diseñado y mantenido por Yerko Barrera · Software Engineering</sub>
 
 </div>
+
