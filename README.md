@@ -185,7 +185,14 @@ Me interesa construir soluciones digitales desde su diseño hasta su implementac
 
 ## 03 · PROYECTOS DESTACADOS
 
-### FraudShield · Análisis de riesgo financiero
+| Orden | Proyecto | Repositorio |
+| --- | --- | --- |
+| Project-01 | FraudShield | [Ver proyecto](https://github.com/koyarxs/Project-01-FraudShield-Septiembre-2026) |
+| Project-02 | FlyMaster | [Ver proyecto — privado](https://github.com/koyarxs/Project-02-FlyMaster-Octubre-2026) |
+| Project-03 | Pawly | [Ver proyecto](https://github.com/koyarxs/Project-03-Pawly-Octubre-2026) |
+| Project-04 | Falta Uno · Sistema Deporte | [Ver proyecto](https://github.com/koyarxs/Project-04-Sistema-Deporte-Octubre-2026) |
+
+### Project-01 · FraudShield · Análisis de riesgo financiero
 
 Sistema Full Stack de procesamiento por lotes para clasificar transacciones financieras mediante reglas de evaluación de riesgo.
 
@@ -198,23 +205,9 @@ Sistema Full Stack de procesamiento por lotes para clasificar transacciones fina
 | **Calidad** | 32 pruebas unitarias y 7 pruebas E2E superadas |
 | **Funcionalidad** | Riesgos bajo, medio y alto; auditoría y trazabilidad |
 
-[![Repositorio](https://img.shields.io/badge/Explorar_FraudShield-2563EB?style=for-the-badge&logo=github)](https://github.com/koyarxs/Project-02-Fraudshield-2026)
+[![Repositorio](https://img.shields.io/badge/Explorar_FraudShield-2563EB?style=for-the-badge&logo=github)](https://github.com/koyarxs/Project-01-FraudShield-Septiembre-2026)
 
-### Pawly · Plataforma Full Stack
-
-Proyecto en desarrollo, organizado mediante Scrum y gestión de actividades con Jira.
-
-| Aspecto | Descripción |
-|:---|:---|
-| **Frontend** | Next.js, TypeScript, Tailwind CSS |
-| **Metodología** | Scrum |
-| **Gestión** | Jira, épicas, historias y subtareas |
-| **Versionamiento** | Feature Branches, commits y Pull Requests |
-| **Estado** | En desarrollo |
-
-[![Repositorio](https://img.shields.io/badge/Explorar_Pawly-2563EB?style=for-the-badge&logo=github)](https://github.com/koyarxs/Project-03-Pawly)
-
-### FlyMaster · Plataforma web empresarial
+### Project-02 · FlyMaster · Plataforma web empresarial
 
 Sitio web corporativo para una empresa de servicios con drones, con enfoque en diseño, experiencia de usuario y desarrollo Full Stack.
 
@@ -227,7 +220,36 @@ Sitio web corporativo para una empresa de servicios con drones, con enfoque en d
 | **Enfoque** | UI/UX, diseño responsive y servicios web |
 
 [![Sitio web](https://img.shields.io/badge/Visitar_FlyMaster-0284C7?style=for-the-badge&logo=googlechrome)](https://flymaster.cl)
-[![Repositorio](https://img.shields.io/badge/Ver_Código-2563EB?style=for-the-badge&logo=github)](https://github.com/koyarxs/Project-03-FlyMaster-Octubre-2026)
+[![Repositorio](https://img.shields.io/badge/Ver_Código-2563EB?style=for-the-badge&logo=github)](https://github.com/koyarxs/Project-02-FlyMaster-Octubre-2026)
+
+### Project-03 · Pawly · Plataforma Full Stack
+
+Proyecto en desarrollo, organizado mediante Scrum y gestión de actividades con Jira.
+
+| Aspecto | Descripción |
+|:---|:---|
+| **Frontend** | Next.js, TypeScript, Tailwind CSS |
+| **Metodología** | Scrum |
+| **Gestión** | Jira, épicas, historias y subtareas |
+| **Versionamiento** | Feature Branches, commits y Pull Requests |
+| **Estado** | En desarrollo |
+
+[![Repositorio](https://img.shields.io/badge/Explorar_Pawly-2563EB?style=for-the-badge&logo=github)](https://github.com/koyarxs/Project-03-Pawly-Octubre-2026)
+
+### Project-04 · Falta Uno · Plataforma multideportiva
+
+Proyecto desarrollado en colaboración con [Jean Paul](https://github.com/jpgomez8), orientado a encontrar compañía para practicar deportes y actividades físicas en Chile.
+
+| Aspecto | Descripción |
+|:---|:---|
+| **Frontend** | Angular 22, Signals, Reactive Forms y Tailwind CSS 4 |
+| **Backend** | NestJS 12 y Node.js 24 |
+| **Datos** | PostgreSQL 18.6 y Prisma ORM 7 |
+| **Infraestructura** | Docker Compose |
+| **Implementado** | Registro, inicio y cierre de sesión, diagnóstico real de la base |
+| **Estado** | En desarrollo; encuentros deportivos y aplicaciones móviles pendientes |
+
+[![Repositorio](https://img.shields.io/badge/Explorar_Falta_Uno-2563EB?style=for-the-badge&logo=github)](https://github.com/koyarxs/Project-04-Sistema-Deporte-Octubre-2026)
 
 ### CV Web · Presentación profesional
 
