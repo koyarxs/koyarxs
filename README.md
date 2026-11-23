@@ -55,6 +55,8 @@ Desde Chile, desarrollo aplicaciones web, APIs y productos SaaS con **YB Veltrix
   <img src="./assets/overview/netlify.svg" width="40" height="40" alt="" /> &nbsp;<strong>Netlify</strong>
 </p>
 
+![Secuencia ilustrada de pruebas automáticas](./assets/overview/pruebas.svg)
+
 ## Proyectos seleccionados
 
 | Proyecto | Enfoque |
@@ -63,6 +65,8 @@ Desde Chile, desarrollo aplicaciones web, APIs y productos SaaS con **YB Veltrix
 | [Zenvik](https://github.com/koyarxs/Project-05-Zenvik-Octubre-2026) | Interfaces web y servicios de backend con Next.js y Django REST. |
 | [FraudShield](https://github.com/koyarxs/Project-01-FraudShield-Septiembre-2026) | MVP académico para clasificar riesgo con datos simulados. Sus resultados indican riesgo y no confirman fraude. |
 | [Pawly](https://github.com/koyarxs/Project-03-Pawly-Octubre-2026) | Proyecto en etapa inicial con frontend en Next.js y evolución Full Stack planificada. |
+
+![Flujo ilustrado de despliegue desde el repositorio hasta la nube](./assets/overview/despliegue.svg)
 
 ## Actividad en GitHub
 
