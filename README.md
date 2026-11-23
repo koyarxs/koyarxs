@@ -6,58 +6,61 @@
 
 **Ingeniero en Computación e Informática · Licenciado en Ingeniería**
 
-Desde Chile, desarrollo aplicaciones web, APIs y productos SaaS con **YB Veltrix Solutions**. Uso **React, Next.js y TypeScript** para construir interfaces, y **NestJS y PostgreSQL** para conectar la aplicación con sus datos.
+Soy fundador de **YB Veltrix Solutions** en la Región de Valparaíso, Chile. Desarrollo aplicaciones web, APIs REST y productos SaaS. Trabajo desde la definición de requerimientos y el modelado de datos hasta la integración, las pruebas y el despliegue.
 
 [**Portafolio**](https://veltrix.bpyerko.workers.dev/) &nbsp;·&nbsp; [**LinkedIn**](https://www.linkedin.com/in/yerko-andr%C3%A9s-barrera-pantoja-a82821123/) &nbsp;·&nbsp; [**Contacto**](https://veltrix.bpyerko.workers.dev/contacto)
 
-![Yerko programando en su notebook](./assets/overview/programando.svg)
+<p align="center">
+  <img src="./assets/overview/programando.svg" width="100%" alt="Yerko programando en su notebook" />
+</p>
+
+## Trayectoria y formación
+
+<p align="center">
+  <img src="./assets/overview/trayectoria.svg" width="100%" alt="Experiencia en YB Veltrix Solutions, Grupo Belator, Reimpact, TIC Services y Nutech. Formación en la Universidad Andrés Bello y AIEP." />
+</p>
+
+<details>
+<summary>Leer trayectoria y formación</summary>
+
+- **YB Veltrix Solutions** · Fundador desde julio de 2025. Desarrollo de aplicaciones web, APIs REST y productos SaaS.
+- **Grupo Belator** · Técnico de Soporte TI, julio de 2025 a mayo de 2026. Continuidad tecnológica, infraestructura y equipos.
+- **Reimpact** · Ingeniero de Desarrollo de Software, septiembre a noviembre de 2025. Desarrollo de software a medida.
+- **TIC Services SpA** · Soporte TIC para el Hospital Gustavo Fricke, diciembre de 2022 a febrero de 2025. Atención de incidencias en sistemas hospitalarios.
+- **Nutech SpA** · Técnico de Soporte TI en la Universidad Andrés Bello, agosto de 2021 a diciembre de 2022. Tecnología para docencia y clases híbridas.
+
+**Universidad Andrés Bello:** Ingeniería en Computación e Informática y Licenciado en Ingeniería.
+
+**AIEP:** Técnico de Nivel Superior en Programación Computacional.
+
+</details>
 
 ## Stack tecnológico
 
-**Frontend**
-
-<p>
-  <img src="./assets/overview/react.svg" width="40" height="40" alt="" /> &nbsp;<strong>React</strong> &nbsp;&nbsp;
-  <img src="./assets/overview/nextjs.svg" width="40" height="40" alt="" /> &nbsp;<strong>Next.js</strong> &nbsp;&nbsp;
-  <img src="./assets/overview/typescript.svg" width="40" height="40" alt="" /> &nbsp;<strong>TypeScript</strong> &nbsp;&nbsp;
-  <img src="./assets/overview/angular.svg" width="40" height="40" alt="" /> &nbsp;<strong>Angular</strong> &nbsp;&nbsp;
-  <img src="./assets/overview/tailwindcss.svg" width="40" height="40" alt="" /> &nbsp;<strong>Tailwind CSS</strong>
+<p align="center">
+  <img src="./assets/overview/stack-animado.svg" width="100%" alt="Stack tecnológico agrupado en frontend, backend, datos, DevOps y pruebas, y nube." />
 </p>
 
-**Backend**
+<details>
+<summary>Leer el stack por categoría</summary>
 
-<p>
-  <img src="./assets/overview/nodejs.svg" width="40" height="40" alt="" /> &nbsp;<strong>Node.js</strong> &nbsp;&nbsp;
-  <img src="./assets/overview/nestjs.svg" width="40" height="40" alt="" /> &nbsp;<strong>NestJS</strong>
+- **Frontend:** React, Next.js, TypeScript, Angular y Tailwind CSS.
+- **Backend:** Node.js, NestJS y APIs REST.
+- **Datos:** PostgreSQL, MongoDB y Prisma ORM.
+- **DevOps y pruebas:** Docker, GitHub Actions, Jest y Playwright.
+- **Nube:** Cloudflare y Netlify.
+
+</details>
+
+<p align="center">
+  <img src="./assets/overview/pruebas.svg" width="100%" alt="Secuencia ilustrada de pruebas automáticas" />
 </p>
-
-**Datos**
-
-<p>
-  <img src="./assets/overview/postgresql.svg" width="40" height="40" alt="" /> &nbsp;<strong>PostgreSQL</strong> &nbsp;&nbsp;
-  <img src="./assets/overview/mongodb.svg" width="40" height="40" alt="" /> &nbsp;<strong>MongoDB</strong> &nbsp;&nbsp;
-  <img src="./assets/overview/prisma.svg" width="40" height="40" alt="" /> &nbsp;<strong>Prisma ORM</strong>
-</p>
-
-**DevOps y pruebas**
-
-<p>
-  <img src="./assets/overview/docker.svg" width="40" height="40" alt="" /> &nbsp;<strong>Docker</strong> &nbsp;&nbsp;
-  <img src="./assets/overview/githubactions.svg" width="40" height="40" alt="" /> &nbsp;<strong>GitHub Actions</strong> &nbsp;&nbsp;
-  <img src="./assets/overview/jest.svg" width="40" height="40" alt="" /> &nbsp;<strong>Jest</strong> &nbsp;&nbsp;
-  <img src="./assets/overview/playwright.svg" width="40" height="40" alt="" /> &nbsp;<strong>Playwright</strong>
-</p>
-
-**Nube**
-
-<p>
-  <img src="./assets/overview/cloudflare.svg" width="40" height="40" alt="" /> &nbsp;<strong>Cloudflare</strong> &nbsp;&nbsp;
-  <img src="./assets/overview/netlify.svg" width="40" height="40" alt="" /> &nbsp;<strong>Netlify</strong>
-</p>
-
-![Secuencia ilustrada de pruebas automáticas](./assets/overview/pruebas.svg)
 
 ## Proyectos seleccionados
+
+<p align="center">
+  <img src="./assets/overview/proyectos-animados.svg" width="100%" alt="Proyectos destacados: portafolio profesional, Zenvik, FraudShield y Pawly." />
+</p>
 
 | Proyecto | Enfoque |
 | --- | --- |
@@ -66,9 +69,15 @@ Desde Chile, desarrollo aplicaciones web, APIs y productos SaaS con **YB Veltrix
 | [FraudShield](https://github.com/koyarxs/Project-01-FraudShield-Septiembre-2026) | MVP académico para clasificar riesgo con datos simulados. Sus resultados indican riesgo y no confirman fraude. |
 | [Pawly](https://github.com/koyarxs/Project-03-Pawly-Octubre-2026) | Proyecto en etapa inicial con frontend en Next.js y evolución Full Stack planificada. |
 
-![Flujo ilustrado de despliegue desde el repositorio hasta la nube](./assets/overview/despliegue.svg)
+<p align="center">
+  <img src="./assets/overview/despliegue.svg" width="100%" alt="Flujo ilustrado de despliegue desde el repositorio hasta la nube" />
+</p>
 
 ## Actividad en GitHub
+
+<p align="center">
+  <img src="./assets/overview/actividad-animada.svg" width="100%" alt="Resumen de 2026: 84 commits públicos y 111 contribuciones visibles al 23 de noviembre." />
+</p>
 
 En GitHub desde junio de 2019 · corte al **23 de noviembre de 2026**.
 

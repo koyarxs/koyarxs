@@ -16,7 +16,7 @@ test('SVG assets do not execute code or load external resources',async()=>{
 test('static assets load locally and remain within the profile budget',async()=>{
   const readme=await readFile('README.md','utf8');
   const paths = new Set([...readme.matchAll(/assets\/[a-z\d/.-]+\.(?:svg|webp)/gi)].map(([path]) => path));
-  assert.ok(paths.size >= 18, 'Both banners and the stack icons must be local');
+  assert.ok(paths.size >= 9, 'Both banners and all seven animated scenes must be local');
   let bytes = 0;
   for (const path of paths) {
     const asset = await stat(path);
@@ -47,7 +47,14 @@ test('README presents Yerko and scopes the activity metrics', async () => {
   assert.match(readme, /^<p align="center">\s+<img src="\.\/assets\/overview\/cabecera\.webp"/);
   assert.match(readme, /## Hola, soy Yerko/);
   assert.doesNotMatch(readme, /Overview-Yerko/);
-  assert.match(readme, /width="40" height="40"/);
+  for (const name of ['programando', 'trayectoria', 'stack-animado', 'pruebas', 'proyectos-animados', 'despliegue', 'actividad-animada']) {
+    assert.ok(readme.includes('./assets/overview/' + name + '.svg'), name);
+    const svg = await readFile('assets/overview/' + name + '.svg', 'utf8');
+    assert.match(svg, /prefers-reduced-motion: no-preference/, name);
+    assert.match(svg, /infinite/, name);
+  }
+  assert.match(readme, /Grupo Belator/);
+  assert.match(readme, /Universidad Andrés Bello/);
   assert.match(readme, /programando\.svg/);
   assert.doesNotMatch(readme, /actividad-2026\.svg/);
   assert.match(readme, /Licenciado en Ingeniería/);
