@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="416" viewBox="0 0 760 416" role="img" aria-labelledby="title desc">
+  <title id="title">Proyectos seleccionados</title>
+  <desc id="desc">Portafolio profesional, Zenvik, FraudShield y Pawly. Sus repositorios están enlazados debajo de la ilustración.</desc>
+  <defs>
+    <linearGradient id="panel" x2="1" y2="1"><stop stop-color="#0b2343"/><stop offset="1" stop-color="#102f52"/></linearGradient>
+  </defs>
+  <style>
+    text { font-family:system-ui,sans-serif; }
+    .title { font-size:32px;font-weight:750;fill:#f3f8ff; }
+    .body { font-size:17px;fill:#cedfee; }
+    .meta { font-size:15px;fill:#b5d1ea; }
+    .name { font-size:18px;font-weight:720;fill:#f3f8ff; }
+    .accent { font-size:17px;font-weight:700;fill:#ffc177; }
+    .tile { fill:#142f4e;stroke:#345a7d; }
+    .pulse { fill:#ffc177; }
+    .circuit { fill:none;stroke:#5986aa;stroke-width:2;stroke-dasharray:5 8; }
+    @media (prefers-reduced-motion: no-preference) {
+      .pulse { animation: pulse 4.2s ease-in-out infinite; }
+      .circuit { animation: circuit 6s linear infinite; }
+      @keyframes pulse { 0%,100% { opacity:.62; } 50% { opacity:1;r:6; } }
+      @keyframes circuit { to { stroke-dashoffset:-52; } }
+    }
+  </style>
+  <rect width="760" height="416" rx="20" fill="url(#panel)"/>
+  <path d="M30 25h96" class="circuit"/>
+  <circle cx="137" cy="25" r="4" class="pulse" style="animation-delay:-0s"/>
+  <text x="30" y="65" class="title">Proyectos seleccionados</text>
+  <rect x="30" y="86" width="700" height="67" rx="13" class="tile"/><circle cx="50" cy="105" r="4" class="pulse" style="animation-delay:-0s"/><text x="66" y="111" class="name">Portafolio profesional</text><text x="66" y="135" class="meta">Sitio y presentación del trabajo de YB Veltrix Solutions.</text><text x="469" y="111" class="meta">Next.js · Cloudflare Workers</text>
+  <rect x="30" y="163" width="700" height="67" rx="13" class="tile"/><circle cx="50" cy="182" r="4" class="pulse" style="animation-delay:-0.64s"/><text x="66" y="188" class="name">Zenvik</text><text x="66" y="212" class="meta">Interfaces web y servicios de backend.</text><text x="469" y="188" class="meta">Next.js · Django REST</text>
+  <rect x="30" y="240" width="700" height="67" rx="13" class="tile"/><circle cx="50" cy="259" r="4" class="pulse" style="animation-delay:-1.28s"/><text x="66" y="265" class="name">FraudShield</text><text x="66" y="289" class="meta">Clasificación de riesgo para explorar señales de alerta.</text><text x="469" y="265" class="meta">MVP académico · datos simulados</text>
+  <rect x="30" y="317" width="700" height="67" rx="13" class="tile"/><circle cx="50" cy="336" r="4" class="pulse" style="animation-delay:-1.92s"/><text x="66" y="342" class="name">Pawly</text><text x="66" y="366" class="meta">Frontend con ampliación Full Stack planificada.</text><text x="469" y="342" class="meta">Next.js · etapa inicial</text>
+</svg>
