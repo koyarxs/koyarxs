@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="206" viewBox="0 0 760 206" role="img" aria-labelledby="title desc">
+  <title id="title">Despliegue a la nube</title>
+  <desc id="desc">Escena ilustrativa con un pulso que viaja del repositorio a la compilación y después a la nube.</desc>
+  <style>
+    text { font-family:system-ui,sans-serif }
+    @media (prefers-reduced-motion: no-preference) {
+      .signal { animation: travel 4s linear infinite; }
+      .follow { animation-delay:-2s }
+      .cloud { animation: shine 4s ease-in-out infinite; }
+    }
+    @keyframes travel { from { transform:translateX(0) } to { transform:translateX(482px) } }
+    @keyframes shine { 0%,65%,100% { fill:#173d61 } 82% { fill:#305b7b } }
+  </style>
+  <rect width="760" height="206" rx="19" fill="#081f3b"/>
+  <text x="380" y="42" text-anchor="middle" fill="#edf7ff" font-size="24" font-weight="700">Despliegue a la nube</text>
+  <path d="M139 109h482" stroke="#416685" stroke-width="2" stroke-dasharray="6 7"/>
+  <g fill="#ffad59"><circle class="signal" cx="139" cy="109" r="4"/><circle class="signal follow" cx="139" cy="109" r="3"/></g>
+  <g fill="#173d61" stroke="#79a9cf" stroke-width="1.5">
+    <rect x="100" y="77" width="78" height="64" rx="13"/>
+    <rect x="341" y="77" width="78" height="64" rx="13"/>
+    <rect class="cloud" x="582" y="77" width="78" height="64" rx="13"/>
+  </g>
+  <g fill="none" stroke="#9bd6ff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m132 101-9 8 9 8m14-16 9 8-9 8m-4-22-6 28"/>
+    <path d="m380 93 15 8v16l-15 8-15-8v-16Zm-15 8 15 8 15-8m-15 8v16"/>
+  </g>
+  <path d="M606 120a8 8 0 0 1-1-16 11 11 0 0 1 21-3 10 10 0 0 1 6 19Z" fill="none" stroke="#ffad59" stroke-width="2.4"/>
+  <g fill="#c7def3" font-size="14" text-anchor="middle">
+    <text x="139" y="166">Repositorio</text><text x="380" y="166">Compilación</text><text x="621" y="166">Nube</text>
+  </g>
+</svg>
