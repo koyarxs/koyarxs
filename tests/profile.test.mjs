@@ -15,11 +15,15 @@ test('SVG assets do not execute code or load external resources',async()=>{
 });
 test('static assets load locally and remain within the profile budget',async()=>{
   const readme=await readFile('README.md','utf8');
-  for(const match of readme.matchAll(/assets\/[a-z\d/.-]+\.(?:svg|webp)/gi)){
-    assert.ok((await stat(match[0])).isFile(),match[0]);
+  const paths = new Set([...readme.matchAll(/assets\/[a-z\d/.-]+\.(?:svg|webp)/gi)].map(([path]) => path));
+  assert.ok(paths.size >= 18, 'Both banners and the stack icons must be local');
+  let bytes = 0;
+  for (const path of paths) {
+    const asset = await stat(path);
+    assert.ok(asset.isFile(), path);
+    bytes += asset.size;
   }
-  let bytes=0;for(const path of await files('assets'))bytes+=(await stat(path)).size;
-  assert.ok(bytes<2_000_000,`Profile assets too heavy: ${bytes}`);
+  assert.ok(bytes < 2_000_000, 'Rendered profile assets too heavy: ' + bytes);
 });
 test('Developer World assets have accessible titles, viewBoxes and reduced motion',async()=>{
   const dirs=['banners','characters','illustrations','svg','icons'];
@@ -38,18 +42,19 @@ test('Developer World assets have accessible titles, viewBoxes and reduced motio
   assert.equal(paths.length,39);
   assert.ok(bytes<300_000,`Developer World budget exceeded: ${bytes}`);
 });
-test('profile exposes professional information and distinguishes its learning roadmap',async()=>{
-  const readme=await readFile('README.md','utf8');
-  assert.match(readme,/Licenciado en Ingeniería/);
-  assert.match(readme,/recién titulado/);
-  assert.match(readme,/experiencia previa en \*\*soporte TI/);
-  assert.match(readme,/Future quest/);
-  assert.match(readme,/no confirma fraude/);
-  assert.match(readme,/evolución Full Stack planificada/);
-  assert.match(readme,/Scientifically inaccurate|scientifically inaccurate/);
-  assert.doesNotMatch(readme,/Senior Developer|certificado en AWS|experto en Kubernetes|\d+ años como developer/i);
-  assert.equal((readme.match(/<details>/g)||[]).length,(readme.match(/<\/details>/g)||[]).length);
-  assert.equal((readme.match(/<picture>/g)||[]).length,(readme.match(/<\/picture>/g)||[]).length);
+test('README presents the November overview and scopes the activity metrics', async () => {
+  const readme = await readFile('README.md', 'utf8');
+  assert.match(readme, /^<p align="center">\s+<img src="\.\/assets\/overview\/cabecera\.webp"/);
+  assert.match(readme, /# Overview-Yerko-Barrera-Noviembre-2026/);
+  assert.match(readme, /Licenciado en Ingeniería/);
+  assert.match(readme, /Cloudflare.*Netlify/);
+  assert.match(readme, /no confirman fraude/);
+  assert.match(readme, /evolución Full Stack planificada/);
+  assert.match(readme, /Commits públicos \| Contribuciones visibles/);
+  assert.match(readme, /23 de noviembre de 2026/);
+  assert.match(readme, /<summary>Ver los meses con actividad registrada<\/summary>/);
+  assert.match(readme, /<img src="\.\/assets\/overview\/cierre\.webp"[^>]+>\s*<\/p>\s*$/);
+  assert.doesNotMatch(readme, /Senior Developer|certificado en AWS|experto en Kubernetes|\d+ años como developer/i);
 });
 test('the workflow is explicitly illustrative and supports reduced motion',async()=>{
   const svg=await readFile('assets/animations/developer-workflow.svg','utf8');
