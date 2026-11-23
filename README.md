@@ -2,37 +2,56 @@
   <img src="./assets/overview/cabecera.webp" width="100%" alt="Yerko Barrera Pantoja, Full Stack Developer" />
 </p>
 
-# Overview-Yerko-Barrera-Noviembre-2026
+## Hola, soy Yerko
 
-**Ingeniero en Computación e Informática · Licenciado en Ingeniería · Full Stack Developer**
+**Ingeniero en Computación e Informática · Licenciado en Ingeniería**
 
-Fundador de **YB Veltrix Solutions** · Chile
+Desde Chile, desarrollo aplicaciones web, APIs y productos SaaS con **YB Veltrix Solutions**. Uso **React, Next.js y TypeScript** para construir interfaces, y **NestJS y PostgreSQL** para conectar la aplicación con sus datos.
 
-Diseño y desarrollo aplicaciones web, APIs y productos SaaS. Trabajo con **React, Next.js, TypeScript, NestJS y PostgreSQL** para llevar los proyectos desde los requerimientos hasta el despliegue.
-
-[◆ Portafolio](https://veltrix.bpyerko.workers.dev/) &nbsp;·&nbsp; [◆ LinkedIn](https://www.linkedin.com/in/yerko-andr%C3%A9s-barrera-pantoja-a82821123/) &nbsp;·&nbsp; [◆ Contacto](https://veltrix.bpyerko.workers.dev/contacto)
+[**Portafolio**](https://veltrix.bpyerko.workers.dev/) &nbsp;·&nbsp; [**LinkedIn**](https://www.linkedin.com/in/yerko-andr%C3%A9s-barrera-pantoja-a82821123/) &nbsp;·&nbsp; [**Contacto**](https://veltrix.bpyerko.workers.dev/contacto)
 
 ## Stack tecnológico
 
 **Frontend**
 
-<img src="./assets/overview/react.svg" width="20" height="20" alt="" /> **React** &nbsp; · &nbsp; <img src="./assets/overview/nextjs.svg" width="20" height="20" alt="" /> **Next.js** &nbsp; · &nbsp; <img src="./assets/overview/typescript.svg" width="20" height="20" alt="" /> **TypeScript** &nbsp; · &nbsp; <img src="./assets/overview/angular.svg" width="20" height="20" alt="" /> **Angular** &nbsp; · &nbsp; <img src="./assets/overview/tailwindcss.svg" width="20" height="20" alt="" /> **Tailwind CSS**
+<p>
+  <img src="./assets/overview/react.svg" width="40" height="40" alt="" /> &nbsp;<strong>React</strong> &nbsp;&nbsp;
+  <img src="./assets/overview/nextjs.svg" width="40" height="40" alt="" /> &nbsp;<strong>Next.js</strong> &nbsp;&nbsp;
+  <img src="./assets/overview/typescript.svg" width="40" height="40" alt="" /> &nbsp;<strong>TypeScript</strong> &nbsp;&nbsp;
+  <img src="./assets/overview/angular.svg" width="40" height="40" alt="" /> &nbsp;<strong>Angular</strong> &nbsp;&nbsp;
+  <img src="./assets/overview/tailwindcss.svg" width="40" height="40" alt="" /> &nbsp;<strong>Tailwind CSS</strong>
+</p>
 
 **Backend**
 
-<img src="./assets/overview/nodejs.svg" width="20" height="20" alt="" /> **Node.js** &nbsp; · &nbsp; <img src="./assets/overview/nestjs.svg" width="20" height="20" alt="" /> **NestJS**
+<p>
+  <img src="./assets/overview/nodejs.svg" width="40" height="40" alt="" /> &nbsp;<strong>Node.js</strong> &nbsp;&nbsp;
+  <img src="./assets/overview/nestjs.svg" width="40" height="40" alt="" /> &nbsp;<strong>NestJS</strong>
+</p>
 
 **Datos**
 
-<img src="./assets/overview/postgresql.svg" width="20" height="20" alt="" /> **PostgreSQL** &nbsp; · &nbsp; <img src="./assets/overview/mongodb.svg" width="20" height="20" alt="" /> **MongoDB** &nbsp; · &nbsp; <img src="./assets/overview/prisma.svg" width="20" height="20" alt="" /> **Prisma ORM**
+<p>
+  <img src="./assets/overview/postgresql.svg" width="40" height="40" alt="" /> &nbsp;<strong>PostgreSQL</strong> &nbsp;&nbsp;
+  <img src="./assets/overview/mongodb.svg" width="40" height="40" alt="" /> &nbsp;<strong>MongoDB</strong> &nbsp;&nbsp;
+  <img src="./assets/overview/prisma.svg" width="40" height="40" alt="" /> &nbsp;<strong>Prisma ORM</strong>
+</p>
 
 **DevOps y pruebas**
 
-<img src="./assets/overview/docker.svg" width="20" height="20" alt="" /> **Docker** &nbsp; · &nbsp; <img src="./assets/overview/githubactions.svg" width="20" height="20" alt="" /> **GitHub Actions** &nbsp; · &nbsp; <img src="./assets/overview/jest.svg" width="20" height="20" alt="" /> **Jest** &nbsp; · &nbsp; <img src="./assets/overview/playwright.svg" width="20" height="20" alt="" /> **Playwright**
+<p>
+  <img src="./assets/overview/docker.svg" width="40" height="40" alt="" /> &nbsp;<strong>Docker</strong> &nbsp;&nbsp;
+  <img src="./assets/overview/githubactions.svg" width="40" height="40" alt="" /> &nbsp;<strong>GitHub Actions</strong> &nbsp;&nbsp;
+  <img src="./assets/overview/jest.svg" width="40" height="40" alt="" /> &nbsp;<strong>Jest</strong> &nbsp;&nbsp;
+  <img src="./assets/overview/playwright.svg" width="40" height="40" alt="" /> &nbsp;<strong>Playwright</strong>
+</p>
 
 **Nube**
 
-<img src="./assets/overview/cloudflare.svg" width="20" height="20" alt="" /> **Cloudflare** &nbsp; · &nbsp; <img src="./assets/overview/netlify.svg" width="20" height="20" alt="" /> **Netlify**
+<p>
+  <img src="./assets/overview/cloudflare.svg" width="40" height="40" alt="" /> &nbsp;<strong>Cloudflare</strong> &nbsp;&nbsp;
+  <img src="./assets/overview/netlify.svg" width="40" height="40" alt="" /> &nbsp;<strong>Netlify</strong>
+</p>
 
 ## Proyectos seleccionados
 
@@ -47,6 +66,8 @@ Diseño y desarrollo aplicaciones web, APIs y productos SaaS. Trabajo con **Reac
 
 En GitHub desde junio de 2019 · corte al **23 de noviembre de 2026**.
 
+[![Gráfica animada de commits y contribuciones visibles en 2026](./assets/overview/actividad-2026.svg)](#detalle-mensual)
+
 **Commits** cuenta los cambios atribuidos a @koyarxs en las ramas predeterminadas de sus repositorios públicos, sin contar dos veces un mismo SHA. **Contribuciones visibles** suma el calendario público de GitHub e incluye otros tipos de actividad. Cada columna mide un conjunto distinto.
 
 | Año | Commits públicos | Contribuciones visibles |
@@ -59,6 +80,8 @@ En GitHub desde junio de 2019 · corte al **23 de noviembre de 2026**.
 | 2021 | 0 | 0 |
 | 2020 | 0 | 0 |
 | 2019 | 0 | 1 |
+
+### Detalle mensual
 
 <details>
 <summary>Ver los meses con actividad registrada</summary>

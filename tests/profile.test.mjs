@@ -42,12 +42,15 @@ test('Developer World assets have accessible titles, viewBoxes and reduced motio
   assert.equal(paths.length,39);
   assert.ok(bytes<300_000,`Developer World budget exceeded: ${bytes}`);
 });
-test('README presents the November overview and scopes the activity metrics', async () => {
+test('README presents Yerko and scopes the activity metrics', async () => {
   const readme = await readFile('README.md', 'utf8');
   assert.match(readme, /^<p align="center">\s+<img src="\.\/assets\/overview\/cabecera\.webp"/);
-  assert.match(readme, /# Overview-Yerko-Barrera-Noviembre-2026/);
+  assert.match(readme, /## Hola, soy Yerko/);
+  assert.doesNotMatch(readme, /Overview-Yerko/);
+  assert.match(readme, /width="40" height="40"/);
+  assert.match(readme, /actividad-2026\.svg.*#detalle-mensual/);
   assert.match(readme, /Licenciado en Ingeniería/);
-  assert.match(readme, /Cloudflare.*Netlify/);
+  assert.match(readme, /Cloudflare.*Netlify/s);
   assert.match(readme, /no confirman fraude/);
   assert.match(readme, /evolución Full Stack planificada/);
   assert.match(readme, /Commits públicos \| Contribuciones visibles/);
