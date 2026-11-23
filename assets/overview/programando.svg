@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="250" viewBox="0 0 760 250" role="img" aria-labelledby="title desc">
+  <title id="title">Yerko programando</title>
+  <desc id="desc">Ilustración de un desarrollador escribiendo en su notebook. Las manos, las líneas de código y el cursor se animan en bucle.</desc>
+  <defs>
+    <linearGradient id="room" x2="1" y2="1"><stop stop-color="#071a31"/><stop offset="1" stop-color="#123e69"/></linearGradient>
+    <linearGradient id="hoodie" x2="0" y2="1"><stop stop-color="#2583bd"/><stop offset="1" stop-color="#133c67"/></linearGradient>
+  </defs>
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .hand { animation: tap .62s ease-in-out infinite alternate; }
+      .hand-right { animation-delay: -.35s; }
+      .line { transform-box: fill-box; transform-origin: left; animation: write 6s steps(9, end) infinite; }
+      .line-two { animation-delay: -.6s; }
+      .line-three { animation-delay: -1.3s; }
+      .caret { animation: blink 1s steps(1, end) infinite; }
+    }
+    @keyframes tap { to { transform: translateY(-3px); } }
+    @keyframes write { 0% { transform: scaleX(.14); } 66%, 100% { transform: scaleX(1); } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <rect width="760" height="250" rx="20" fill="url(#room)"/>
+  <path d="M0 210H760v19a21 21 0 0 1-21 21H21a21 21 0 0 1-21-21Z" fill="#102943"/>
+  <path d="M0 210H760" stroke="#315a7b"/>
+  <circle cx="194" cy="107" r="78" fill="#175387" opacity=".57"/>
+  <path d="M118 210v-24c0-27 24-43 65-47l40 4c33 8 49 26 49 50v17Z" fill="url(#hoodie)"/>
+  <path d="M166 153q30 35 62 1m-40 19-4 17m23-17 3 17" fill="none" stroke="#63abd6" stroke-width="3" stroke-linecap="round"/>
+  <rect x="158" y="57" width="75" height="95" rx="34" fill="#e7a984"/>
+  <path d="M160 102q-12-7-9-26-8-14 7-23 1-14 19-14 12-11 26-3 14-3 22 8 17 3 17 20 10 14-10 35l-4-22q-16 3-26-9-11 12-39 10Z" fill="#1b2030"/>
+  <g fill="none" stroke="#25354a" stroke-width="3"><rect x="163" y="92" width="27" height="19" rx="5"/><rect x="200" y="92" width="27" height="19" rx="5"/><path d="M190 99q5-4 10 0"/></g>
+  <g fill="#263045"><circle cx="179" cy="101" r="2.8"/><circle cx="213" cy="101" r="2.8"/></g>
+  <path d="M189 126q8 6 16-2" stroke="#834e45" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="m145 181 20 16m76-16 18 16" stroke="#348ec4" stroke-width="16" stroke-linecap="round"/>
+  <ellipse class="hand" cx="174" cy="201" rx="13" ry="6" fill="#e7a984"/>
+  <ellipse class="hand hand-right" cx="265" cy="201" rx="13" ry="6" fill="#e7a984"/>
+  <path d="M188 207h121l14-52h-99l-13 48h-23Z" fill="#253f5e" stroke="#7198bb" stroke-width="2" stroke-linejoin="round"/>
+  <path d="m265 177-7 5 7 5m12-10 7 5-7 5" fill="none" stroke="#ffad52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="359" y="39" width="350" height="132" rx="12" fill="#081a30" stroke="#40749c"/>
+  <path d="M359 69h350" stroke="#40749c"/>
+  <circle cx="379" cy="54" r="3.5" fill="#ffae58"/><circle cx="391" cy="54" r="3.5" fill="#75caff"/><circle cx="403" cy="54" r="3.5" fill="#5bd0ad"/>
+  <text x="422" y="58" fill="#d2e9ff" font-size="13" font-family="monospace">workspace.ts</text>
+  <g fill="none" stroke-linecap="round" stroke-width="4">
+    <path class="line" d="M381 91h41m10 0h108" stroke="#79c5ff"/>
+    <path class="line line-two" d="M398 111h79m10 0h107" stroke="#64d3b3"/>
+    <path class="line line-three" d="M398 131h37m10 0h73" stroke="#ffb15e"/>
+  </g>
+  <rect class="caret" x="381" y="144" width="7" height="12" rx="1" fill="#c8eaff"/>
+</svg>

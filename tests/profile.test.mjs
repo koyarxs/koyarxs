@@ -48,7 +48,8 @@ test('README presents Yerko and scopes the activity metrics', async () => {
   assert.match(readme, /## Hola, soy Yerko/);
   assert.doesNotMatch(readme, /Overview-Yerko/);
   assert.match(readme, /width="40" height="40"/);
-  assert.match(readme, /actividad-2026\.svg.*#detalle-mensual/);
+  assert.match(readme, /programando\.svg/);
+  assert.doesNotMatch(readme, /actividad-2026\.svg/);
   assert.match(readme, /Licenciado en Ingeniería/);
   assert.match(readme, /Cloudflare.*Netlify/s);
   assert.match(readme, /no confirman fraude/);

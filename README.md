@@ -10,6 +10,8 @@ Desde Chile, desarrollo aplicaciones web, APIs y productos SaaS con **YB Veltrix
 
 [**Portafolio**](https://veltrix.bpyerko.workers.dev/) &nbsp;·&nbsp; [**LinkedIn**](https://www.linkedin.com/in/yerko-andr%C3%A9s-barrera-pantoja-a82821123/) &nbsp;·&nbsp; [**Contacto**](https://veltrix.bpyerko.workers.dev/contacto)
 
+![Yerko programando en su notebook](./assets/overview/programando.svg)
+
 ## Stack tecnológico
 
 **Frontend**
@@ -65,8 +67,6 @@ Desde Chile, desarrollo aplicaciones web, APIs y productos SaaS con **YB Veltrix
 ## Actividad en GitHub
 
 En GitHub desde junio de 2019 · corte al **23 de noviembre de 2026**.
-
-[![Gráfica animada de commits y contribuciones visibles en 2026](./assets/overview/actividad-2026.svg)](#detalle-mensual)
 
 **Commits** cuenta los cambios atribuidos a @koyarxs en las ramas predeterminadas de sus repositorios públicos, sin contar dos veces un mismo SHA. **Contribuciones visibles** suma el calendario público de GitHub e incluye otros tipos de actividad. Cada columna mide un conjunto distinto.
 
